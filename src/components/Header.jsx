@@ -15,9 +15,9 @@ export default function Header({ move }) {
       {({ open }) => (
         <>
           <div
-            className={`fixed w-full left-0 right-0 mx-auto px-2 sm:px-6 lg:px-20 transition-colors ease-in-out delay-150 duration-500 ${
+            className={`fixed w-full left-0 right-0 mx-auto px-2 sm:px-6 lg:px-20 transition-colors ease-in-out delay-200 duration-500 ${
               move
-                ? "bg-white backdrop-filter backdrop-blur-sm bg-opacity-20"
+                ? "bg-white backdrop-filter backdrop-blur-sm bg-opacity-10"
                 : "bg-black"
             }`}
           >
@@ -36,12 +36,13 @@ export default function Header({ move }) {
                 <div className="flex-shrink-0 flex items-center">
                   <img
                     className="block lg:hidden h-12 w-auto"
-                    src={move ? "/main/4.png" : "/main/3.png"}
+                    src="/main/3.png"
+                    // src={move ? "/main/4.png" : "/main/3.png"}
                     alt="Workflow"
                   />
                   <img
                     className="hidden lg:block h-12 w-auto"
-                    src={move ? "/main/4.png" : "/main/3.png"}
+                    src="/main/3.png"
                     alt="Workflow"
                   />
                 </div>
@@ -53,7 +54,7 @@ export default function Header({ move }) {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="text-gray-300 hover:bg-grayHack hover:text-white px-3 py-2 rounded-md text-base font-medium"
+                      className="text-white hover:bg-primary hover:bg-opacity-50 px-3 py-2 rounded-md text-lg font-medium"
                     >
                       {item.name}
                     </a>

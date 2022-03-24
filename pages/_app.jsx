@@ -1,6 +1,7 @@
 import "../styles/globals.css";
+import "../styles/heroAnimate.css";
 import { useEffect, useState, useRef } from "react";
-import Header from '../src/components/Header'
+import Header from "../src/components/Header";
 
 function MyApp({ Component, pageProps }) {
   const [moveHeader, setMoveHeader] = useState(false);
@@ -11,9 +12,21 @@ function MyApp({ Component, pageProps }) {
     window.addEventListener("scroll", scrollListener);
   }, [moveHeader]);
 
+  const progressBar = useRef(null);
+
+  typeof window !== "undefined"
+    ? (window.onscroll = () => {
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        let progressHeight = (window.pageYOffset / totalHeight) * 100;
+        progressBar.current.style.height = progressHeight + "%";
+      })
+    : null;
+
   return (
     <>
       <Header move={moveHeader} />
+      <div id="progressbar" ref={progressBar}></div>
+      <div id="scrollPath"></div>
       <Component {...pageProps} />
     </>
   );

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Hero from "../src/components/Hero";
-import AOS  from 'aos';
+import AOS from "aos";
+import TechChain from "../src/components/TechChain";
 
 export default function Home() {
   useEffect(() => {
@@ -9,9 +10,9 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="relatve h-[400vh]">
+    <div className="relatve">
       <Hero />
-      
+      <TechChain />
     </div>
   );
 }

@@ -54,7 +54,7 @@ export default function Header({ move }) {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="text-white hover:bg-primary hover:bg-opacity-50 px-3 py-2 rounded-md text-lg font-medium"
+                      className="text-white hover:bg-primary hover:bg-opacity-50 px-3 py-2 rounded-md text-lg font-semibold"
                     >
                       {item.name}
                     </a>

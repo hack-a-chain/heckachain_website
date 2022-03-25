@@ -25,12 +25,12 @@ function MyApp({ Component, pageProps }) {
     : null;
 
   return (
-    <>
+    <div className="font-rubik">
       <Header move={moveHeader} />
       <div id="progressbar" ref={progressBar}></div>
       <div id="scrollPath"></div>
       <Component {...pageProps} />
-    </>
+    </div>
   );
 }
 

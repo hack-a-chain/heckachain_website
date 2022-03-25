@@ -15,7 +15,7 @@ export default function Header({ move }) {
       {({ open }) => (
         <>
           <div
-            className={`fixed w-full left-0 right-0 mx-auto px-2 sm:px-6 lg:px-20 transition-colors ease-in-out delay-200 duration-500 ${
+            className={`fixed w-full left-0 right-0 mx-auto px-2 sm:px-6 lg:px-20 transition-colors ease-in-out delay-200 duration-500 z-50 ${
               move
                 ? "bg-white backdrop-filter backdrop-blur-sm bg-opacity-10"
                 : "bg-black"

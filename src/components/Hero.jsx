@@ -2,7 +2,7 @@ import HeroAnimate from "./HeroAnimate";
 
 export default function Hero() {
   return (
-    <div className="pt-10 bg-black sm:pt-24 lg:pb-24 lg:overflow-hidden">
+    <div className="relative pt-10 bg-black sm:pt-24 lg:pb-24 lg:overflow-hidden">
       <div className="mx-auto max-w-7xl lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
           <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
@@ -19,13 +19,9 @@ export default function Hero() {
                   & Smart Contract Audits
                 </span>
               </h1>
-              {/* <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                Lorem cupidatat commodo.
-              </p> */}
               <button
                 type="button"
-                className="inline-flex items-center px-5 py-2 border border-transparent mt-3 text-base sm:mt-7 sm:text-xl lg:text-lg xl:text-xl leading-4 font-medium rounded text-white bg-indigo-400 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="inline-flex items-center px-5 py-2 border border-transparent mt-3 text-base sm:mt-8 sm:text-xl lg:text-lg xl:text-xl leading-4 font-medium rounded text-white bg-indigo-400 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 animate-bounce transition duration-500 ease-in-out"
               >
                 Explore
               </button>
@@ -38,6 +34,9 @@ export default function Hero() {
           </div>
         </div>
       </div>
+
+      <div class="triangle_vert"></div>
+
     </div>
   );
 }

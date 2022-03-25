@@ -1,5 +1,7 @@
 import "../styles/globals.css";
 import "../styles/heroAnimate.css";
+import "../styles/wave.css";
+import "aos/dist/aos.css";
 import { useEffect, useState, useRef } from "react";
 import Header from "../src/components/Header";
 

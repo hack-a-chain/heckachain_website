@@ -29,7 +29,7 @@ export default function TechChain() {
   };
 
   return (
-    <div className="flex justify-center items-center flex-col py-6 bg-gradient-to-t from-indigo-500 via-primary to-secondary">
+    <div className="relative flex justify-center items-center flex-col py-10 pb-16 bg-gradient-to-t from-indigo-500 via-primary to-secondary">
       <h1
         data-aos="fade-right"
         className=" text-4xl text-grayHack font-semibold m-10 container sm:text-5xl"

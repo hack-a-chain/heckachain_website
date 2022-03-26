@@ -7,6 +7,13 @@ import Header from "../src/components/Header";
 
 function MyApp({ Component, pageProps }) {
   const [moveHeader, setMoveHeader] = useState(false);
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    const scrollListener = () =>
+      window.scrollY > 100 ? setShow(true) : setShow(false);
+    window.addEventListener("scroll", scrollListener);
+  }, []);
 
   useEffect(() => {
     const scrollListener = () =>
@@ -30,6 +37,15 @@ function MyApp({ Component, pageProps }) {
       <div id="progressbar" ref={progressBar}></div>
       <div id="scrollPath"></div>
       <Component {...pageProps} />
+      <img
+        src="/telegram.svg"
+        alt=""
+        className={
+          show
+            ? "w-12 shadow-xl cursor-pointer text-primary fixed bottom-8 right-5 bg-white rounded-full z-50 hover:animate-bounce transition-all delay-150 ease-in-out"
+            : "hidden"
+        }
+      />
     </div>
   );
 }

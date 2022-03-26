@@ -18,18 +18,18 @@ export default function Hero() {
                   We are Blockchain Specialists{" "}
                 </span>
               </h1>
-              <p className="max-w-xl mb-4 text-base text-gray-400 md:text-lg">
+              <p className="max-w-xl mb-4 text-base text-white md:text-lg">
                 More than a software service. All our business and technology knowledge working for you.
               </p>
               <button
                 type="button"
-                className="inline-flex items-center px-5 py-2 border border-transparent mt-3 text-base sm:mt-8 sm:text-xl lg:text-lg xl:text-xl leading-4 font-medium rounded text-white bg-indigo-400 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 animate-bounce transition duration-500 ease-in-out"
+                className="inline-flex items-center px-5 py-2 border border-transparent mt-3 text-base sm:mt-8 sm:text-xl lg:text-lg xl:text-xl leading-4 font-semibold rounded text-white bg-primary hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 animate-bounce transition duration-500 ease-in-out"
               >
                 Contact us
               </button>
             </div>
           </div>
-          <div className="mt-12  lg:relative">
+          <div className="mt-12 lg:relative">
             <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               <HeroAnimate />
             </div>

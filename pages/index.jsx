@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Hero from "../src/components/Hero";
 import AOS from "aos";
 import TechChain from "../src/components/TechChain";
+import Products from "../src/components/Products";
 
 export default function Home() {
   useEffect(() => {
@@ -10,9 +11,10 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="relatve">
+    <>
       <Hero />
       <TechChain />
-    </div>
+      <Products />
+    </>
   );
 }

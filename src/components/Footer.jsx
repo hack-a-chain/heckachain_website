@@ -3,22 +3,20 @@ import NavLink from "./NavLink";
 export default function Footer() {
   const navigation = {
     solutions: [
-      { name: "Marketing", href: "#" },
-      { name: "Analytics", href: "#" },
-      { name: "Commerce", href: "#" },
-      { name: "Insights", href: "#" },
+      { name: "Smart contract security audit", href: "#" },
+      { name: "KYC verification", href: "#" },
+      { name: "Blockchain development", href: "#" },
+      { name: "Security consulting", href: "#" },
     ],
     links: [
-      { name: "Pricing", href: "#" },
-      { name: "Documentation", href: "#" },
-      { name: "Guides", href: "#" },
-      { name: "API Status", href: "#" },
+      { name: "Audit reports", href: "#" },
+      { name: "Terms of service", href: "#" },
+      { name: "Privacy policy", href: "#" },
     ],
     company: [
-      { name: "About", href: "#" },
-      { name: "Blog", href: "#" },
-      { name: "Jobs", href: "#" },
-      { name: "Press", href: "#" },
+      { name: "Faq", href: "#" },
+      { name: "Team", href: "#" },
+      { name: "Contact Us", href: "#form" },
     ],
     social: [
       {
@@ -68,8 +66,8 @@ export default function Footer() {
               <img className="h-14" src="/main/2.png" alt="Company name" />
             </NavLink>
             <p className="text-white text-base max-w-md">
-              Making the world a better place through constructing elegant
-              hierarchies.
+              More than a software service. All our business and technology
+              knowledge working for you.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (

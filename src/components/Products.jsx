@@ -37,7 +37,7 @@ export default function Products() {
                   </p>
                 </div>
                 <a
-                  href="/plataforma"
+                  href="#"
                   className="cursor-pointer text-base font-semibold transition-colors duration-200 text-white hover:text-primary"
                 >
                   Learn more<span aria-hidden="true"> &rarr;</span>
@@ -68,7 +68,7 @@ export default function Products() {
                   </p>
                 </div>
                 <a
-                  href="/plataforma"
+                  href="#"
                   className="cursor-pointer text-base font-semibold transition-colors duration-200 text-white hover:text-primary"
                 >
                   Learn more<span aria-hidden="true"> &rarr;</span>

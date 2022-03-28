@@ -13,8 +13,8 @@ export default function Team() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-10 md:grid-cols-2 xl:grid-cols-2">
-          <div  className="px-12 py-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-primary dark:border-primary dark:hover:border-transparent">
+        <div data-aos="zoom-in-down" className="grid grid-cols-1 gap-8 mt-8 xl:mt-10 md:grid-cols-2 xl:grid-cols-2">
+          <div className="px-12 py-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-primary dark:border-primary dark:hover:border-transparent">
             <div className="flex flex-col sm:-mx-4 sm:flex-row">
               <img
                 className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"

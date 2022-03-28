@@ -20,7 +20,7 @@ export default function Services() {
           </p>
         </div>
         <div className="grid gap-8 row-gap-5 md:grid-cols-2">
-          <div className="relative p-px overflow-hidden transition-all duration-500 transform border-none rounded shadow-sm hover:scale-105 group hover:shadow-xl hover:animate-bounce delay-150 ease-in-out">
+          <div className="relative p-px overflow-hidden transition-all duration-500 transform border-none rounded shadow-sm hover:scale-105 group hover:shadow-xl">
             <div className="absolute bottom-0 left-0 w-full h-1 duration-500 origin-left transform scale-x-0 bg-secondary group-hover:scale-x-100" />
             <div className="absolute bottom-0 left-0 w-1 h-full duration-500 origin-bottom transform scale-y-0 bg-secondary group-hover:scale-y-100" />
             <div className="absolute top-0 left-0 w-full h-1 duration-500 origin-right transform scale-x-0 bg-secondary group-hover:scale-x-100" />
@@ -46,7 +46,7 @@ export default function Services() {
               </div>
             </div>
           </div>
-          <div className="relative p-px overflow-hidden transition-all duration-500 transform border-none rounded shadow-sm hover:scale-105 group hover:shadow-xl hover:animate-bounce delay-150 ease-in-out">
+          <div className="relative p-px overflow-hidden transition-all duration-500 transform border-none rounded shadow-sm hover:scale-105 group hover:shadow-xl">
             <div className="absolute bottom-0 left-0 w-full h-1 duration-500 origin-left transform scale-x-0 bg-secondary group-hover:scale-x-100" />
             <div className="absolute bottom-0 left-0 w-1 h-full duration-500 origin-bottom transform scale-y-0 bg-secondary group-hover:scale-y-100" />
             <div className="absolute top-0 left-0 w-full h-1 duration-500 origin-right transform scale-x-0 bg-secondary group-hover:scale-x-100" />

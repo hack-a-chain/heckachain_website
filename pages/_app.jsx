@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 import Header from "../src/components/Header";
 import AOS from "aos";
 import Footer from "../src/components/Footer";
+import { ArrowCircleUpIcon } from "@heroicons/react/outline";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -42,21 +43,39 @@ function MyApp({ Component, pageProps }) {
       })
     : null;
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="font-rubik">
       <Header move={moveHeader} />
       <div id="progressbar" ref={progressBar}></div>
       <div id="scrollPath"></div>
       <Component {...pageProps} />
+
       <img
         src="/telegram.svg"
         alt=""
         className={
           show
-            ? "w-8 sm:w-12 shadow-xl cursor-pointer text-primary fixed bottom-5 right-5 bg-white rounded-full z-50 hover:animate-bounce transition-all delay-150 ease-in-out"
+            ? "w-8 sm:w-10 shadow-xl cursor-pointer text-primary fixed bottom-20 right-5 bg-white rounded-full z-50 hover:animate-bounce transition-all delay-150 ease-in-out"
             : "hidden"
         }
       />
+
+      <ArrowCircleUpIcon
+        className={
+          show
+            ? "w-10 cursor-pointer text-primary fixed bottom-5 right-5 bg-grayHack rounded-full z-50"
+            : "hidden"
+        }
+        onClick={() => scrollToTop()}
+      />    
+
       <Footer />
     </div>
   );

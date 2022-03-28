@@ -13,7 +13,7 @@ export default function Team() {
           </p>
         </div>
 
-        <div data-aos="zoom-out-down" className="grid grid-cols-1 gap-8 mt-8 xl:mt-10 md:grid-cols-2 xl:grid-cols-2">
+        <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-10 md:grid-cols-2 xl:grid-cols-2">
           <div  className="px-12 py-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-primary dark:border-primary dark:hover:border-transparent">
             <div className="flex flex-col sm:-mx-4 sm:flex-row">
               <img

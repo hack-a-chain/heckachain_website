@@ -32,7 +32,7 @@ export default function TechChain() {
     <div className="relative flex justify-center items-center flex-col py-10 pb-16 bg-gradient-to-t from-indigo-500 via-primary to-secondary">
       <h1
         data-aos="fade-right"
-        className=" text-4xl text-grayHack font-semibold m-10 container sm:text-5xl"
+        className="text-3xl text-center sm:text-4xl text-grayHack font-semibold m-5 sm:m-10 lg:text-5xl"
       >
         We're up to any challenge!
       </h1>

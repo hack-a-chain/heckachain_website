@@ -1,6 +1,6 @@
 export default function Team() {
   return (
-    <section className="bg-white dark:bg-grayHack">
+    <section className="bg-white dark:bg-grayHack" id="team">
       <div className="flex flex-col items-center justify-center px-6 py-10 mx-auto max-w-7xl lg:px-8">
         <div data-aos="zoom-in-down">
           <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
@@ -13,7 +13,10 @@ export default function Team() {
           </p>
         </div>
 
-        <div data-aos="zoom-in-down" className="grid grid-cols-1 gap-8 mt-8 xl:mt-10 md:grid-cols-2 xl:grid-cols-2">
+        <div
+          data-aos="zoom-in-down"
+          className="grid grid-cols-1 gap-8 mt-8 xl:mt-10 md:grid-cols-2 xl:grid-cols-2"
+        >
           <div className="px-12 py-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-primary dark:border-primary dark:hover:border-transparent">
             <div className="flex flex-col sm:-mx-4 sm:flex-row">
               <img

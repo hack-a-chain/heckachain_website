@@ -20,7 +20,7 @@ export default function Faq() {
   }
 
   return (
-    <div className="bg-grayHack">
+    <div className="bg-grayHack" id='faq'>
       <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto divide-y divide-secondary">
           <h2 data-aos="fade-down" className="text-center text-3xl font-extrabold text-secondary sm:text-4xl">

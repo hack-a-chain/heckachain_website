@@ -11,6 +11,7 @@ import Header from "../src/components/Header";
 import AOS from "aos";
 import Footer from "../src/components/Footer";
 import { ArrowCircleUpIcon } from "@heroicons/react/outline";
+import NavLink from "../src/components/NavLink";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -57,15 +58,17 @@ function MyApp({ Component, pageProps }) {
       <div id="scrollPath"></div>
       <Component {...pageProps} />
 
-      <img
-        src="/telegram.svg"
-        alt=""
-        className={
-          show
-            ? "w-8 sm:w-10 shadow-xl cursor-pointer text-primary fixed bottom-20 right-5 bg-white rounded-full z-50 hover:animate-bounce transition-all delay-150 ease-in-out"
-            : "hidden"
-        }
-      />
+      <NavLink href="https://t.me/hackachain" target="blank">
+        <img
+          src="/telegram.svg"
+          alt=""
+          className={
+            show
+              ? "w-8 sm:w-10 shadow-xl cursor-pointer text-primary fixed bottom-20 right-5 bg-white rounded-full z-50 hover:animate-bounce transition-all delay-150 ease-in-out"
+              : "hidden"
+          }
+        />
+      </NavLink>
 
       <ArrowCircleUpIcon
         className={
@@ -74,7 +77,7 @@ function MyApp({ Component, pageProps }) {
             : "hidden"
         }
         onClick={() => scrollToTop()}
-      />    
+      />
 
       <Footer />
     </div>

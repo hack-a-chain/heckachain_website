@@ -9,13 +9,22 @@ export default function Footer() {
       { name: "Security consulting", href: "#" },
     ],
     links: [
-      { name: "Audit reports", href: "#" },
-      { name: "Terms of service", href: "#" },
-      { name: "Privacy policy", href: "#" },
+      {
+        name: "Audit reports",
+        href: "https://github.com/hack-a-chain/security-audits",
+      },
+      {
+        name: "Terms of service",
+        href: "https://hackachain.org/terms_service.html",
+      },
+      {
+        name: "Privacy policy",
+        href: "https://hackachain.org/privacy_policy.html",
+      },
     ],
     company: [
-      { name: "Faq", href: "#" },
-      { name: "Team", href: "#" },
+      { name: "Faq", href: "#faq" },
+      { name: "Team", href: "#team" },
       { name: "Contact Us", href: "#form" },
     ],
     social: [
@@ -69,6 +78,7 @@ export default function Footer() {
               More than a software service. All our business and technology
               knowledge working for you.
             </p>
+            <p className="text-white text-base max-w-md">info@hackachain.org</p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
                 <NavLink
@@ -116,6 +126,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <NavLink
                         href={item.href}
+                        target="blank"
                         className="text-base text-white hover:text-secondary"
                       >
                         {item.name}

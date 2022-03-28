@@ -1,3 +1,5 @@
+import NavLink from "./NavLink";
+
 export default function Footer() {
   const navigation = {
     solutions: [
@@ -6,7 +8,7 @@ export default function Footer() {
       { name: "Commerce", href: "#" },
       { name: "Insights", href: "#" },
     ],
-    support: [
+    links: [
       { name: "Pricing", href: "#" },
       { name: "Documentation", href: "#" },
       { name: "Guides", href: "#" },
@@ -17,7 +19,6 @@ export default function Footer() {
       { name: "Blog", href: "#" },
       { name: "Jobs", href: "#" },
       { name: "Press", href: "#" },
-      { name: "Partners", href: "#" },
     ],
     social: [
       {
@@ -60,27 +61,26 @@ export default function Footer() {
 
   return (
     <footer className="bg-grayHack" aria-labelledby="footer-heading">
-      <h2 id="footer-heading" className="sr-only">
-        Footer
-      </h2>
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-5 xl:gap-8">
           <div className="space-y-8 xl:col-span-2">
-            <img className="h-14" src="/main/2.png" alt="Company name" />
+            <NavLink href="/">
+              <img className="h-14" src="/main/2.png" alt="Company name" />
+            </NavLink>
             <p className="text-white text-base max-w-md">
               Making the world a better place through constructing elegant
               hierarchies.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
-                <a
+                <NavLink
                   key={item.name}
                   href={item.href}
                   className="text-white hover:text-white"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />
-                </a>
+                </NavLink>
               ))}
             </div>
           </div>
@@ -94,12 +94,12 @@ export default function Footer() {
                 <ul className="mt-4 space-y-4">
                   {navigation.solutions.map((item) => (
                     <li key={item.name}>
-                      <a
+                      <NavLink
                         href={item.href}
-                        className="text-base text-white hover:text-gray-900"
+                        className="text-base text-white hover:text-secondary"
                       >
                         {item.name}
-                      </a>
+                      </NavLink>
                     </li>
                   ))}
                 </ul>
@@ -111,22 +111,22 @@ export default function Footer() {
             <div className="md:grid md:grid-cols-1 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold text-white tracking-wider uppercase">
-                  Support
+                  Useful Links
                 </h3>
                 <ul className="mt-4 space-y-4">
-                  {navigation.support.map((item) => (
+                  {navigation.links.map((item) => (
                     <li key={item.name}>
-                      <a
+                      <NavLink
                         href={item.href}
-                        className="text-base text-white hover:text-gray-900"
+                        className="text-base text-white hover:text-secondary"
                       >
                         {item.name}
-                      </a>
+                      </NavLink>
                     </li>
                   ))}
                 </ul>
               </div>
-            </div> 
+            </div>
           </div>
 
           <div className="mt-12 grid grid-cols-1  xl:mt-0">
@@ -138,19 +138,18 @@ export default function Footer() {
                 <ul className="mt-4 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
-                      <a
+                      <NavLink
                         href={item.href}
-                        className="text-base text-white hover:text-gray-900"
+                        className="text-base text-white hover:text-secondary"
                       >
                         {item.name}
-                      </a>
+                      </NavLink>
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
           </div>
-
         </div>
         <div className="mt-12 border-t border-gray-200 pt-8">
           <p className="text-base text-white xl:text-center">

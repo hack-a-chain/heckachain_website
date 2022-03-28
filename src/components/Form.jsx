@@ -50,13 +50,13 @@ export default function Form() {
         </div>
 
         <div className="row100">
-          <div className="col">
+          <div className="col flex flex-col sm:flex-row justify-center">
             <input
               type="submit"
               value="Submit"
               className="text-white px-5 py-2 border border-white rounded cursor-pointer"
             />
-            <span className="text-white ml-4">
+            <span className="text-white mt-4 ml-0 sm:ml-4 sm:mt-0">
               In a hurry?
               <NavLink className='ml-2 hover:text-primary' href="https://t.me/hackachain" target="blank">
                 Contact us on telegram for a faster reply

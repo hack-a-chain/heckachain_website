@@ -145,6 +145,12 @@
   border-radius: 2px;
 } */
 
+@media screen and (max-width: 650px) {
+  .containerForm {
+    padding: 20px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .containerForm {
     padding: 20px;

@@ -29,7 +29,7 @@ export default function Services() {
               <div className="flex flex-col justify-between flex-grow">
                 <div>
                   <h6 className="mb-2 text-xl font-semibold leading-5 text-secondary">
-                    Smart Contract Audiits
+                    Smart contract security audit
                   </h6>
                   <p className="mb-2 text-base sm:text-lg text-white">
                     Cheese on toast airedale the big cheese. Danish fontina
@@ -56,7 +56,7 @@ export default function Services() {
               <div className="flex flex-col justify-between flex-grow">
                 <div>
                   <h6 className="mb-2 text-xl font-semibold leading-5 text-secondary">
-                    Blockchain Development
+                    Blockchain development
                   </h6>
                   <p className="mb-2 text-base sm:text-lg text-white">
                     Cheese on toast airedale the big cheese. Danish fontina

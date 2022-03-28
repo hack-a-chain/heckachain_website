@@ -1,6 +1,6 @@
 export default function Form() {
   return (
-    <div className="sectionForm py-16 md:px-24 lg:px-8 lg:py-20">
+    <div id="form" className="sectionForm py-16 md:px-24 lg:px-8 lg:py-20">
       <div data-aos="zoom-in-down" className="containerForm">
         <h2>Contact Us</h2>
         <div className="row100">

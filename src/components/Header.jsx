@@ -1,5 +1,6 @@
 import { Popover } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import NavLink from "./NavLink";
 
 export default function Header({ move }) {
   const navigation = [
@@ -7,13 +8,13 @@ export default function Header({ move }) {
     { name: "Development", href: "#", current: false },
     { name: "Resources", href: "#", current: false },
     { name: "About", href: "#", current: false },
-    { name: "Contact", href: "#", current: false },
+    { name: "Contact", href: "#form", current: false },
   ];
 
   return (
     <Popover as="nav">
       {({ open }) => (
-        <div className='relative'>
+        <div className="relative">
           <div
             className={`fixed w-full left-0 right-0 mx-auto px-2 sm:px-6 lg:px-20 transition-colors ease-in-out delay-200 duration-500 z-50 ${
               move
@@ -34,30 +35,34 @@ export default function Header({ move }) {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
-                    className="block lg:hidden h-10 sm:h-12 w-auto cursor-pointer"
-                    src="/main/3.png"
-                    // src={move ? "/main/4.p ng" : "/main/3.png"}
-                    alt="Workflow"
-                  />
-                  <img
-                    className="hidden lg:block h-12 w-auto cursor-pointer"
-                    src="/main/3.png"
-                    alt="Workflow"
-                  />
+                  <NavLink href="/">
+                    <img
+                      className="block lg:hidden h-10 sm:h-12 w-auto cursor-pointer"
+                      src="/main/3.png"
+                      alt="Workflow"
+                    />
+                  </NavLink>
+
+                  <NavLink href="/">
+                    <img
+                      className="hidden lg:block h-12 w-auto cursor-pointer"
+                      src="/main/3.png"
+                      alt="Workflow"
+                    />
+                  </NavLink>
                 </div>
               </div>
 
               <div className="hidden sm:block">
                 <div className="flex space-x-4">
                   {navigation.map((item) => (
-                    <a
+                    <NavLink
                       key={item.name}
                       href={item.href}
                       className="text-white hover:bg-primary hover:bg-opacity-50 px-3 py-2 rounded-md text-lg font-semibold"
                     >
                       {item.name}
-                    </a>
+                    </NavLink>
                   ))}
                 </div>
               </div>
@@ -67,7 +72,7 @@ export default function Header({ move }) {
           <Popover.Panel className="sm:hidden flex top-16 absolute z-50 bg-grayHack w-full  ">
             <div className="px-2 pt-2 pb-3 space-y-1 w-full rounded ">
               {navigation.map((item) => (
-                <a
+                <NavLink
                   key={item.name}
                   as="a"
                   href={item.href}
@@ -75,7 +80,7 @@ export default function Header({ move }) {
                   aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
-                </a>
+                </NavLink>
               ))}
             </div>
           </Popover.Panel>

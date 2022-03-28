@@ -199,7 +199,7 @@ module.exports = {
     borderColor: (theme) => ({
       ...theme("colors"),
       DEFAULT: theme("colors.gray.200", "currentColor"),
-      'primary': '#002E48',
+      'primary': '#9997FF',
     }),
     borderOpacity: (theme) => theme("opacity"),
     borderRadius: {

@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 
 import Header from "../src/components/Header";
 import AOS from "aos";
+import Footer from "../src/components/Footer";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -56,6 +57,7 @@ function MyApp({ Component, pageProps }) {
             : "hidden"
         }
       />
+      <Footer />
     </div>
   );
 }

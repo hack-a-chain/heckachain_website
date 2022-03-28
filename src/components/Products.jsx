@@ -1,4 +1,4 @@
-export default function TechChain() {
+export default function Products() {
     return (
         <div>
 

@@ -10,21 +10,16 @@ export default function Services() {
             <span className="inline-block ">Our Services</span>
             {/* <div className="h-1 ml-auto duration-500 origin-left transform bg-secondary scale-x-30 group-hover:scale-x-100" /> */}
             <div className="-mt-4">
-            <span className="inline-block w-40 h-1 rounded-full bg-secondary"></span>
-            <span className="inline-block w-3 h-1 ml-1 rounded-full bg-secondary"></span>
-            <span className="inline-block w-1 h-1 ml-1 rounded-full bg-secondary"></span>
+              <span className="inline-block w-40 h-1 rounded-full bg-secondary"></span>
+              <span className="inline-block w-3 h-1 ml-1 rounded-full bg-secondary"></span>
+              <span className="inline-block w-1 h-1 ml-1 rounded-full bg-secondary"></span>
             </div>
-           
           </h2>
           <p data-aos="zoom-in-down" className="text-gray-100 lg:max-w-md">
             "All In One Solution".
           </p>
         </div>
-        <div
-          data-aos="fade-up"
-          data-aos-duration="3000"
-          className="grid gap-8 row-gap-5 md:grid-cols-2"
-        >
+        <div className="grid gap-8 row-gap-5 md:grid-cols-2">
           <div className="relative p-px overflow-hidden transition-all duration-500 transform border-none rounded shadow-sm hover:scale-105 group hover:shadow-xl hover:animate-bounce delay-150 ease-in-out">
             <div className="absolute bottom-0 left-0 w-full h-1 duration-500 origin-left transform scale-x-0 bg-secondary group-hover:scale-x-100" />
             <div className="absolute bottom-0 left-0 w-1 h-full duration-500 origin-bottom transform scale-y-0 bg-secondary group-hover:scale-y-100" />
@@ -51,11 +46,7 @@ export default function Services() {
               </div>
             </div>
           </div>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="3000"
-            className="relative p-px overflow-hidden transition-all duration-500 transform border-none rounded shadow-sm hover:scale-105 group hover:shadow-xl hover:animate-bounce delay-150 ease-in-out"
-          >
+          <div className="relative p-px overflow-hidden transition-all duration-500 transform border-none rounded shadow-sm hover:scale-105 group hover:shadow-xl hover:animate-bounce delay-150 ease-in-out">
             <div className="absolute bottom-0 left-0 w-full h-1 duration-500 origin-left transform scale-x-0 bg-secondary group-hover:scale-x-100" />
             <div className="absolute bottom-0 left-0 w-1 h-full duration-500 origin-bottom transform scale-y-0 bg-secondary group-hover:scale-y-100" />
             <div className="absolute top-0 left-0 w-full h-1 duration-500 origin-right transform scale-x-0 bg-secondary group-hover:scale-x-100" />

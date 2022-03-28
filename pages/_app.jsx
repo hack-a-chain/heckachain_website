@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import "../styles/heroAnimate.css";
 import "../styles/wave.css";
 import "../styles/blockChainAnimate.css";
+import "../styles/form.css";
 import "aos/dist/aos.css";
 
 import Header from "../src/components/Header";
@@ -51,7 +52,7 @@ function MyApp({ Component, pageProps }) {
         alt=""
         className={
           show
-            ? "w-12 shadow-xl cursor-pointer text-primary fixed bottom-8 right-5 bg-white rounded-full z-50 hover:animate-bounce transition-all delay-150 ease-in-out"
+            ? "w-8 sm:w-12 shadow-xl cursor-pointer text-primary fixed bottom-5 right-5 bg-white rounded-full z-50 hover:animate-bounce transition-all delay-150 ease-in-out"
             : "hidden"
         }
       />

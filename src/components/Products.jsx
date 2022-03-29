@@ -3,10 +3,10 @@ import NavLink from "./NavLink";
 export default function Products() {
   return (
     <div className="bg-black overflow-hidden relative">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-20 lg:px-8 md:py-16">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div>
-            <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+            <h2 className="text-3xl font-extrabold text-white sm:text-4xl xl:text-4xl">
               We can build and audit all types of projects in the crypto world
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-gray-200">
@@ -30,47 +30,47 @@ export default function Products() {
             <img
               src="/graphics/grafismo-03.png"
               alt="grafismo"
-              className="absolute opacity-40 -top-5 right-5"
+              className="absolute opacity-40 sm:-top-5 right-5"
             />
             <div className="col-span-1 flex justify-center py-4">
               <img
                 className="max-h-20"
-                src="/networksChain/nft-logo.png"
+                src="/productIcons/nft-logo.png"
                 alt="Workcation"
               />
             </div>
             <div className="col-span-1 flex justify-center py-4">
               <img
                 className="max-h-20"
-                src="/networksChain/nft-logo.png"
+                src="/productIcons/nft-logo.png"
                 alt="Mirage"
               />
             </div>
             <div className="col-span-1 flex justify-center py-4">
               <img
                 className="max-h-20"
-                src="/networksChain/nft-logo.png"
+                src="/productIcons/nft-logo.png"
                 alt="Tuple"
               />
             </div>
             <div className="col-span-1 flex justify-center py-4">
               <img
                 className="max-h-20"
-                src="/networksChain/nft-logo.png"
+                src="/productIcons/nft-logo.png"
                 alt="Laravel"
               />
             </div>
             <div className="col-span-1 flex justify-center py-4">
               <img
                 className="max-h-20"
-                src="/networksChain/nft-logo.png"
+                src="/productIcons/nft-logo.png"
                 alt="StaticKit"
               />
             </div>
             <div className="col-span-1 flex justify-center py-4">
               <img
                 className="max-h-20"
-                src="/networksChain/nft-logo.png"
+                src="/productIcons/nft-logo.png"
                 alt="Statamic"
               />
             </div>

@@ -49,8 +49,44 @@ export default function Form() {
           </div>
         </div>
 
+        <div className="grid grid-cols-6 px-4">
+          <div className="col-span-3 flex flex-col">
+            <label className="inline-flex items-center mt-3">
+              <input
+                type="checkbox"
+                className="form-checkbox h-5 w-5 text-primary"
+              />
+              <span class="ml-2 text-white">Smart contract security audit</span>
+            </label>
+            <label className="inline-flex items-center mt-3">
+              <input
+                type="checkbox"
+                className="form-checkbox h-5 w-5 text-primary"
+              />
+              <span class="ml-2 text-white">Blockchain development</span>
+            </label>
+          </div>
+
+          <div className="col-span-3 flex flex-col">
+            <label className="inline-flex items-center mt-3">
+              <input
+                type="checkbox"
+                className="form-checkbox h-5 w-5 text-primary"
+              />
+              <span class="ml-2 text-white">KYC verification</span>
+            </label>
+            <label className="inline-flex items-center mt-3">
+              <input
+                type="checkbox"
+                className="form-checkbox h-5 w-5 text-primary"
+              />
+              <span class="ml-2 text-white">Security consulting</span>
+            </label>
+          </div>
+        </div>
+
         <div className="row100">
-          <div className="col flex flex-col sm:flex-row justify-center">
+          <div className="col flex flex-col sm:flex-row justify-center items-start sm:justify-start sm:items-center">
             <input
               type="submit"
               value="Submit"
@@ -58,7 +94,11 @@ export default function Form() {
             />
             <span className="text-white mt-4 ml-0 sm:ml-4 sm:mt-0">
               In a hurry?
-              <NavLink className='ml-2 hover:text-primary' href="https://t.me/hackachain" target="blank">
+              <NavLink
+                className="ml-2 hover:text-primary"
+                href="https://t.me/hackachain"
+                target="blank"
+              >
                 Contact us on telegram for a faster reply
               </NavLink>
             </span>

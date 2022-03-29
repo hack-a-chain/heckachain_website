@@ -32,9 +32,10 @@ export default function Services() {
                     Smart contract security audit
                   </h6>
                   <p className="mb-2 text-base sm:text-lg text-white">
-                    Cheese on toast airedale the big cheese. Danish fontina
-                    cheesy grin airedale danish fontina taleggio the big cheese
-                    macaroni cheese port-salut.
+                    Build your Project: from A to Z, whether at the idea,
+                    conception, development or improvement stage, our team of
+                    blockchain specialists is here to help you with all our
+                    technology and business knowledge!
                   </p>
                 </div>
                 <a
@@ -59,9 +60,11 @@ export default function Services() {
                     Blockchain development
                   </h6>
                   <p className="mb-2 text-base sm:text-lg text-white">
-                    Cheese on toast airedale the big cheese. Danish fontina
-                    cheesy grin airedale danish fontina taleggio the big cheese
-                    macaroni cheese port-salut.
+                    Protect you Project: Make sure your project is Secure with
+                    our full white-box review of smart contract code to detect
+                    any security vulnerabilities, including statical and
+                    dynamical analysis with an extra manual analysis. At the
+                    end, you'll receive a certification of security!
                   </p>
                 </div>
                 <a

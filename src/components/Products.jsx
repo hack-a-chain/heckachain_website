@@ -26,48 +26,48 @@ export default function Products() {
             </div>
           </div>
 
-          <div className=" mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
+          <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
             <img
               src="/graphics/grafismo-03.png"
               alt="grafismo"
               className="absolute opacity-40 sm:-top-5 right-5"
             />
-            <div className="col-span-1 flex justify-center py-4">
+            <div className="col-span-1 flex justify-center py-4 z-50">
               <img
                 className="max-h-20"
                 src="/productIcons/nft-logo.png"
                 alt="Workcation"
               />
             </div>
-            <div className="col-span-1 flex justify-center py-4">
+            <div className="col-span-1 flex justify-center py-4 z-50">
               <img
                 className="max-h-20"
-                src="/productIcons/nft-logo.png"
+                src="/productIcons/token.png"
                 alt="Mirage"
               />
             </div>
-            <div className="col-span-1 flex justify-center py-4">
+            <div className="col-span-1 flex justify-center py-4 z-50">
               <img
                 className="max-h-20"
                 src="/productIcons/nft-logo.png"
                 alt="Tuple"
               />
             </div>
-            <div className="col-span-1 flex justify-center py-4">
+            <div className="col-span-1 flex justify-center py-4 z-50">
               <img
                 className="max-h-20"
                 src="/productIcons/nft-logo.png"
                 alt="Laravel"
               />
             </div>
-            <div className="col-span-1 flex justify-center py-4">
+            <div className="col-span-1 flex justify-center py-4 z-50">
               <img
                 className="max-h-20"
                 src="/productIcons/nft-logo.png"
                 alt="StaticKit"
               />
             </div>
-            <div className="col-span-1 flex justify-center py-4">
+            <div className="col-span-1 flex justify-center py-4 z-50">
               <img
                 className="max-h-20"
                 src="/productIcons/nft-logo.png"

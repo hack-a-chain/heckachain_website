@@ -5,6 +5,7 @@ import "../styles/heroAnimate.css";
 import "../styles/wave.css";
 import "../styles/blockChainAnimate.css";
 import "../styles/form.css";
+import "../styles/journey.css";
 import "aos/dist/aos.css";
 
 import Header from "../src/components/Header";

@@ -133,18 +133,6 @@
   height: 100%;
 }
 
-/* .containerForm .row100 .col  input[type="submit"] {
-  border: none;
-  padding: 10px 40px;
-  cursor: pointer;
-  outline: none;
-  background: #fff;
-  color: #000;
-  font-weight: 600;
-  font-size: 18px;
-  border-radius: 2px;
-} */
-
 @media screen and (max-width: 650px) {
   .containerForm {
     padding: 20px;

@@ -1,5 +1,6 @@
 import Hero from "../src/components/Hero";
 import TechChain from "../src/components/TechChain";
+import Journey from "../src/components/Journey";
 import Services from "../src/components/Services";
 import Products from "../src/components/Products";
 import Customers from "../src/components/Customers";
@@ -13,6 +14,9 @@ export default function Home() {
     <>
       <Hero />
       <TechChain />
+      <div className="relative challenges">
+        <Journey />
+      </div>
       <Services />
       <Products />
       <Customers />

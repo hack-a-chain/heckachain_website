@@ -1,19 +1,37 @@
 import NavLink from "./NavLink";
 
 export default function Products() {
+  const logos = [
+    {
+      img: "/productIcons/nft-logo.png",
+      alt: "NFT",
+    },
+    {
+      img: "/productIcons/token.png",
+      alt: "Token",
+    },
+    {
+      img: "/productIcons/nft-logo.png",
+      alt: "DeFi",
+    },
+    {
+      img: "/productIcons/nft-logo.png",
+      alt: "DEXs",
+    },
+    {
+      img: "/productIcons/nft-logo.png",
+      alt: "DAOs",
+    },
+  ];
+
   return (
     <div className="bg-black overflow-hidden relative">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-20 lg:px-8 md:py-16">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-          <div>
-            <h2 className="text-3xl font-extrabold text-white sm:text-4xl xl:text-4xl">
+          <div data-aos="fade-up">
+            <h2 className="text-3xl font-extrabold text-white sm:text-4xl xl:text-5xl">
               We can build and audit all types of projects in the crypto world
             </h2>
-            <p className="mt-3 max-w-3xl text-lg text-gray-200">
-              We pride ourselves in offering best-in-class auditing services
-              suited for the needs of new startup blockchain projects, at
-              accessible prices.
-            </p>
             <div className="mt-6">
               <NavLink href="#">
                 <button
@@ -32,48 +50,21 @@ export default function Products() {
               alt="grafismo"
               className="absolute opacity-40 sm:-top-5 right-5"
             />
-            <div className="col-span-1 flex justify-center py-4 z-50">
-              <img
-                className="max-h-20"
-                src="/productIcons/nft-logo.png"
-                alt="Workcation"
-              />
-            </div>
-            <div className="col-span-1 flex justify-center py-4 z-50">
-              <img
-                className="max-h-20"
-                src="/productIcons/token.png"
-                alt="Mirage"
-              />
-            </div>
-            <div className="col-span-1 flex justify-center py-4 z-50">
-              <img
-                className="max-h-20"
-                src="/productIcons/nft-logo.png"
-                alt="Tuple"
-              />
-            </div>
-            <div className="col-span-1 flex justify-center py-4 z-50">
-              <img
-                className="max-h-20"
-                src="/productIcons/nft-logo.png"
-                alt="Laravel"
-              />
-            </div>
-            <div className="col-span-1 flex justify-center py-4 z-50">
-              <img
-                className="max-h-20"
-                src="/productIcons/nft-logo.png"
-                alt="StaticKit"
-              />
-            </div>
-            <div className="col-span-1 flex justify-center py-4 z-50">
-              <img
-                className="max-h-20"
-                src="/productIcons/nft-logo.png"
-                alt="Statamic"
-              />
-            </div>
+            {logos.map((logo, index) => (
+              <div
+              data-aos="zoom-in-left"
+                className={`col-span-1 flex justify-center py-4 z-50 ${
+                  index % 2 !== 0 ? "animate-bounce" : "animate-bounceFirst"
+                }`}
+                key={index}
+              >
+                <img
+                  className="max-h-20 transition duration-500 ease-in-out"
+                  src={logo.img}
+                  alt={logo.alt}
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>

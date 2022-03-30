@@ -19,34 +19,11 @@ export default function Services() {
             "All In One Solution".
           </p>
         </div>
-        <div className="grid gap-8 row-gap-5 md:grid-cols-2">
-          <div className="relative p-px overflow-hidden transition-all duration-500 transform border-none rounded shadow-sm hover:scale-105 group hover:shadow-xl">
-            <div className="absolute bottom-0 left-0 w-full h-1 duration-500 origin-left transform scale-x-0 bg-secondary group-hover:scale-x-100" />
-            <div className="absolute bottom-0 left-0 w-1 h-full duration-500 origin-bottom transform scale-y-0 bg-secondary group-hover:scale-y-100" />
-            <div className="absolute top-0 left-0 w-full h-1 duration-500 origin-right transform scale-x-0 bg-secondary group-hover:scale-x-100" />
-            <div className="absolute bottom-0 right-0 w-1 h-full duration-500 origin-top transform scale-y-0 bg-secondary group-hover:scale-y-100" />
-            <div className="relative flex flex-col h-full p-5 rounded-sm lg:items-center lg:flex-row">
-              <div className="flex flex-col justify-between flex-grow">
-                <div>
-                  <h6 className="mb-2 text-xl font-semibold leading-5 text-secondary">
-                    Smart contract security audit
-                  </h6>
-                  <p className="mb-2 text-base sm:text-lg text-white">
-                    Build your Project: from A to Z, whether at the idea,
-                    conception, development or improvement stage, our team of
-                    blockchain specialists is here to help you with all our
-                    technology and business knowledge!
-                  </p>
-                </div>
-                <a
-                  href="#"
-                  className="cursor-pointer text-base font-semibold transition-colors duration-200 text-white hover:text-secondary"
-                >
-                  Learn more<span aria-hidden="true"> &rarr;</span>
-                </a>
-              </div>
-            </div>
-          </div>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          className="grid gap-8 row-gap-5 md:grid-cols-2 items-start"
+        >
           <div className="relative p-px overflow-hidden transition-all duration-500 transform border-none rounded shadow-sm hover:scale-105 group hover:shadow-xl">
             <div className="absolute bottom-0 left-0 w-full h-1 duration-500 origin-left transform scale-x-0 bg-secondary group-hover:scale-x-100" />
             <div className="absolute bottom-0 left-0 w-1 h-full duration-500 origin-bottom transform scale-y-0 bg-secondary group-hover:scale-y-100" />
@@ -57,22 +34,50 @@ export default function Services() {
               <div className="flex flex-col justify-between flex-grow">
                 <div>
                   <h6 className="mb-2 text-xl font-semibold leading-5 text-secondary">
-                    Blockchain development
+                    Protect you Project
                   </h6>
                   <p className="mb-2 text-base sm:text-lg text-white">
-                    Protect you Project: Make sure your project is Secure with
-                    our full white-box review of smart contract code to detect
-                    any security vulnerabilities, including statical and
-                    dynamical analysis with an extra manual analysis. At the
-                    end, you'll receive a certification of security!
+                    Make sure your project is Secure with our full white-box
+                    review of smart contract code to detect any security
+                    vulnerabilities, including statical and dynamical analysis
+                    with an extra manual analysis. At the end, you'll receive a
+                    certification of security!
                   </p>
                 </div>
-                <a
+                {/* <a
                   href="#"
                   className="cursor-pointer text-base font-semibold transition-colors duration-200 text-white hover:text-secondary"
                 >
                   Learn more<span aria-hidden="true"> &rarr;</span>
-                </a>
+                </a> */}
+              </div>
+            </div>
+          </div>
+
+          <div className="relative p-px overflow-hidden transition-all duration-500 transform border-none rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+            <div className="absolute bottom-0 left-0 w-full h-1 duration-500 origin-left transform scale-x-0 bg-secondary group-hover:scale-x-100" />
+            <div className="absolute bottom-0 left-0 w-1 h-full duration-500 origin-bottom transform scale-y-0 bg-secondary group-hover:scale-y-100" />
+            <div className="absolute top-0 left-0 w-full h-1 duration-500 origin-right transform scale-x-0 bg-secondary group-hover:scale-x-100" />
+            <div className="absolute bottom-0 right-0 w-1 h-full duration-500 origin-top transform scale-y-0 bg-secondary group-hover:scale-y-100" />
+            <div className="relative flex flex-col h-full p-5 rounded-sm lg:items-center lg:flex-row">
+              <div className="flex flex-col justify-between flex-grow">
+                <div>
+                  <h6 className="mb-2 text-xl font-semibold leading-5 text-secondary">
+                    Build your Project
+                  </h6>
+                  <p className="mb-2 text-base sm:text-lg text-white">
+                    From A to Z, whether at the idea, conception, development or
+                    improvement stage, our team of blockchain specialists is
+                    here to help you with all our technology and business
+                    knowledge!
+                  </p>
+                </div>
+                {/* <a
+                  href="#"
+                  className="cursor-pointer text-base font-semibold transition-colors duration-200 text-white hover:text-secondary"
+                >
+                  Learn more<span aria-hidden="true"> &rarr;</span>
+                </a> */}
               </div>
             </div>
           </div>

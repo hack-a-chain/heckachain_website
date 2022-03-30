@@ -6,7 +6,7 @@ import { CheckIcon, SelectorIcon } from "@heroicons/react/solid";
 export default function Form() {
   const projectType = [
     { id: 1, name: "Blockchain Development" },
-    { id: 2, name: "Smart Contract Security Audit" },
+    { id: 2, name: "Security Audit" },
   ];
 
   const [selectedProjectType, setSelectedProjectType] = useState(
@@ -18,6 +18,7 @@ export default function Form() {
   }
 
   return (
+    // add compy
     <div id="form" className="sectionForm py-16 md:px-24 lg:px-8 lg:py-20">
       <div data-aos="zoom-in-down" className="containerForm">
         <h2>Request an audit</h2>
@@ -42,7 +43,7 @@ export default function Form() {
           <div className="col">
             <div className="inputBox">
               <input type="text" name="" required />
-              <span className="text">Source code/github</span>
+              <span className="text">Source code/github (optional)</span>
               <span className="line"></span>
             </div>
           </div>

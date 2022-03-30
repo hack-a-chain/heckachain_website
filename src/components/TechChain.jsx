@@ -36,10 +36,12 @@ export default function TechChain() {
       >
         We're up to any challenge!
       </h1>
-      <div className="flex flex-wrap justify-center items-center py-8">
+      <div
+        data-aos="zoom-in"
+        className="flex flex-wrap justify-center items-center py-8"
+      >
         {chain.tech.map((item, index) => (
           <div
-            data-aos="zoom-in"
             key={index}
             className={`h-32 w-32 bg-gray-100 shadow-xl ml-2 rounded-full flex justify-center items-center p-5 px-1 m-2 cursor-pointer ${
               index % 2 !== 0 ? "animate-bounce" : "animate-bounceFirst"

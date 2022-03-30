@@ -7,7 +7,7 @@ export default function Customers() {
         <h2 className="text-3xl sm:text-4xl font-extrabold text-grayHack">
           Projects that already trust us
         </h2>
-        <div className="flow-root mt-8 lg:mt-10">
+        <div data-aos="zoom-in" className="flow-root mt-8 lg:mt-10">
           <div className="-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4">
             <NavLink href="https://www.classykangaroos.com/" target="blank">
               <div className="mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4">

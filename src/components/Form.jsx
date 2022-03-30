@@ -18,10 +18,9 @@ export default function Form() {
   }
 
   return (
-    // add compy
     <div id="form" className="sectionForm py-16 md:px-24 lg:px-8 lg:py-20">
       <div data-aos="zoom-in-down" className="containerForm">
-        <h2>Request an audit</h2>
+        <h2 className="text-3xl sm:text-4xl">Request an audit</h2>
         <div className="row100">
           <div className="col">
             <div className="inputBox">

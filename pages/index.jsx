@@ -14,13 +14,13 @@ export default function Home() {
     <>
       <Hero />
       <TechChain />
-      <div className="relative challenges">
+      <div className="relative challenges overflow-scroll">
         <Journey />
       </div>
       <Services />
       <Products />
       <Customers />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <Team />
       <Faq />
       <Form />

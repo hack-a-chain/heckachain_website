@@ -6,7 +6,9 @@ import "../styles/wave.css";
 import "../styles/blockChainAnimate.css";
 import "../styles/form.css";
 import "../styles/journey.css";
+
 import "aos/dist/aos.css";
+import "slick-carousel/slick/slick.css";
 
 import Header from "../src/components/Header";
 import AOS from "aos";

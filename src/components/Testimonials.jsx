@@ -1,97 +1,98 @@
-export default function Testimonials() {
+import Slider from "react-slick";
+import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/outline";
+
+const NextArrow = ({ currentSlide, slideCount, ...props }) => (
+  <div className="absolute top-0 h-full flex items-end md:items-center z-20 right-10">
+    <button
+      {...props}
+      className="text-white hover:text-secondary focus:outline-none transition duration-300 hover:scale-125 transform -translate-y-2/3 md:translate-y-0"
+    >
+      <ArrowRightIcon className="w-8" />
+    </button>
+  </div>
+);
+
+const PreviousArrow = ({ currentSlide, slideCount, ...props }) => (
+  <div className="absolute top-0 h-full flex items-end md:items-center z-20 left-10">
+    <button
+      {...props}
+      className="text-white hover:text-secondary focus:outline-none transition duration-300 hover:scale-125 transform -translate-y-2/3 md:translate-y-0"
+    >
+      <ArrowLeftIcon className="w-8" />
+    </button>
+  </div>
+);
+
+export default function TestimonialSection() {
+  const testimonials = [
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
+      quote:
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
+      customerName: "Charlotte Hale",
+      customerTitle: "CEO, Delos Inc.",
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
+      quote:
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
+      customerName: "Adam Cuppy",
+      customerTitle: "Founder, EventsNYC",
+    },
+    {
+      imageSrc:
+        "https://images.unsplash.com/photo-1580852300654-03c803a14e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4.25&w=512&h=512&q=80",
+      quote:
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
+      customerName: "Steven Marcetti",
+      customerTitle: "Event Manager, Brite",
+    },
+  ];
+
   return (
-    <section className="bg-grayHack">
-      <div className="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8 py-10">
-        <div data-aos="fade-right" className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-primary lg:pr-16">
-          <div className="md:flex-shrink-0">
-            <img
-              className="h-12"
-              src="https://tailwindui.com/img/logos/tuple-logo-indigo-300.svg"
-              alt="Tuple"
-            />
-          </div>
-          <blockquote className="mt-6 md:flex-grow md:flex md:flex-col">
-            <div className="relative text-lg font-medium text-white md:flex-grow">
-              <svg
-                className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600"
-                fill="currentColor"
-                viewBox="0 0 32 32"
-                aria-hidden="true"
-              >
-                <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-              </svg>
-              <p className="relative text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                expedita voluptas culpa sapiente alias molestiae.
-              </p>
-            </div>
-            <footer className="mt-8">
-              <div className="flex items-start">
-                <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-                  <img
-                    className="h-12 w-12 rounded-full"
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                    alt=""
-                  />
-                </div>
-                <div className="ml-4">
-                  <div className="text-base font-medium text-white">
-                    Judith Black
-                  </div>
-                  <div className="text-base font-medium text-indigo-200">
-                    CEO, Tuple
-                  </div>
-                </div>
-              </div>
-            </footer>
-          </blockquote>
+    <div className="relative bg-gradient-to-t from-primary via-indigo-300 to-indigo-500">
+      <div className="max-w-screen-xl mx-auto py-20 lg:py-24">
+        <div className="flex flex-col items-center">
+          <h2 className="text-4xl sm:text-5xl text-white font-black tracking-wide text-center">
+            Our Awesome Customers
+          </h2>
         </div>
-        
-        <div data-aos="fade-left" className="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
-          <div className="md:flex-shrink-0">
-            <img
-              className="h-12"
-              src="https://tailwindui.com/img/logos/workcation-logo-indigo-300.svg"
-              alt="Workcation"
-            />
-          </div>
-          <blockquote className="mt-6 md:flex-grow md:flex md:flex-col">
-            <div className="relative text-lg font-medium text-white md:flex-grow">
-              <svg
-                className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600"
-                fill="currentColor"
-                viewBox="0 0 32 32"
+        <div className="mt-14">
+          <Slider nextArrow={<NextArrow />} prevArrow={<PreviousArrow />}>
+            {testimonials.map((testimonial, index) => (
+              <div
+                className="flex flex-col items-center md:items-stretch md:flex-row md:justify-center outline-none"
+                key={index}
               >
-                <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-              </svg>
-              <p className="relative">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                expedita voluptas culpa sapiente alias molestiae. Numquam
-                corrupti in laborum sed rerum et corporis.
-              </p>
-            </div>
-            <footer className="mt-8">
-              <div className="flex items-start">
-                <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+                <div className="md:mx-3 lg:mx-6 w-1/3 md:w-1/6 rounded flex items-center max-w-xs md:max-w-none">
                   <img
-                    className="h-12 w-12 rounded-full"
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                    alt=""
+                    src={testimonial.imageSrc}
+                    alt={testimonial.customerName}
+                    className="rounded-xl"
                   />
                 </div>
-                <div className="ml-4">
-                  <div className="text-base font-medium text-white">
-                    Joseph Rodriguez
+                <div className="md:mx-3 lg:mx-6 md:w-6/12 py-4 flex flex-col justify-between">
+                  <div className="relative p-6 mt-4 md:mt-0">
+                    <blockquote className="text-grayHack text-center md:text-left font-medium text-xl lg:text-2xl">
+                      {testimonial.quote}
+                    </blockquote>
                   </div>
-                  <div className="text-base font-medium text-indigo-200">
-                    CEO, Workcation
+                  <div className="px-5 lg:px-10 text-center md:text-left mt-4 md:mt-0">
+                    <h5 className="font-bold text-lg lg:text-xl xl:text-2xl text-grayHack">
+                      {testimonial.customerName}
+                    </h5>
+                    <p className="font-medium text-sm text-grayHack">
+                      {testimonial.customerTitle}
+                    </p>
                   </div>
                 </div>
               </div>
-            </footer>
-          </blockquote>
+            ))}
+          </Slider>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

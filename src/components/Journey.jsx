@@ -205,17 +205,18 @@ export default function Journey() {
               <div className="tab tab-0 ">
                 <h1>Idea</h1>
                 <p>
-                  We love to participate in the ideation phase, where we can
-                  help you to better understand your business and see the
-                  different approaches you can have to it!
+                  Participating in the ideation phase is surely something we’ll
+                  be happy to be with you. We can help you to better understand
+                  your business and see the different approaches you can have to
+                  it.
                 </p>
               </div>
               <div className="tab tab-1">
                 <h1>Conception</h1>
                 <p>
                   When you already have your idea, it’s time to understand
-                  technologically how it will be built, and that’s something
-                  we’re here to help you.
+                  technologically how it will be built. And that’s what we are
+                  specialized at.
                 </p>
               </div>
               <div className="tab tab-2">
@@ -232,14 +233,14 @@ export default function Journey() {
                 <p>
                   If you have already developed your project and just need some
                   good eyes to review it and make sure everything is correct, we
-                  are at your disposal to audit your smart contracts!
+                  are at your disposal to audit your smart contracts.
                 </p>
               </div>
               <div className="tab tab-4">
                 <h1>Improvement</h1>
                 <p>
                   Thinking about building a new version for your project? That’s
-                  for sure something we can help you with!
+                  for sure something we can help you with.
                 </p>
               </div>
             </div>

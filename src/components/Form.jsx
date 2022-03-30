@@ -20,7 +20,7 @@ export default function Form() {
   return (
     <div id="form" className="sectionForm py-16 md:px-24 lg:px-8 lg:py-20">
       <div data-aos="zoom-in-down" className="containerForm">
-        <h2 className="text-3xl sm:text-4xl">Request an audit</h2>
+        <h2 className="text-3xl sm:text-4xl">Contact us</h2>
         <div className="row100">
           <div className="col">
             <div className="inputBox">
@@ -60,13 +60,6 @@ export default function Form() {
             <div className="inputBox">
               <input type="text" name="" required />
               <span className="text">Company (optional)</span>
-              <span className="line"></span>
-            </div>
-          </div>
-          <div className="col">
-            <div className="inputBox">
-              <input type="text" name="" required />
-              <span className="text">Phone number (optional)</span>
               <span className="line"></span>
             </div>
           </div>

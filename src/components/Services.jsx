@@ -15,9 +15,6 @@ export default function Services() {
               <span className="inline-block w-1 h-1 ml-1 rounded-full bg-secondary"></span>
             </div>
           </h2>
-          <p data-aos="zoom-in-down" className="text-gray-100 lg:max-w-md">
-            "All In One Solution".
-          </p>
         </div>
         <div
           data-aos="fade-up"
@@ -30,18 +27,16 @@ export default function Services() {
             <div className="absolute top-0 left-0 w-full h-1 duration-500 origin-right transform scale-x-0 bg-secondary group-hover:scale-x-100" />
             <div className="absolute bottom-0 right-0 w-1 h-full duration-500 origin-top transform scale-y-0 bg-secondary group-hover:scale-y-100" />
             <div className="relative flex flex-col h-full p-5 rounded-sm lg:items-center lg:flex-row">
-              <div className="mb-6 mr-6 lg:mb-0"></div>
               <div className="flex flex-col justify-between flex-grow">
                 <div>
                   <h6 className="mb-2 text-xl font-semibold leading-5 text-secondary">
-                    Protect you Project
+                    Build your Project
                   </h6>
                   <p className="mb-2 text-base sm:text-lg text-white">
-                    Make sure your project is Secure with our full white-box
-                    review of smart contract code to detect any security
-                    vulnerabilities, including statical and dynamical analysis
-                    with an extra manual analysis. At the end, you'll receive a
-                    certification of security!
+                    From A to Z, whether at the idea, conception, development or
+                    improvement stage, our team of blockchain specialists is
+                    here to help you with all our technology and business
+                    knowledge!
                   </p>
                 </div>
                 {/* <a
@@ -60,16 +55,18 @@ export default function Services() {
             <div className="absolute top-0 left-0 w-full h-1 duration-500 origin-right transform scale-x-0 bg-secondary group-hover:scale-x-100" />
             <div className="absolute bottom-0 right-0 w-1 h-full duration-500 origin-top transform scale-y-0 bg-secondary group-hover:scale-y-100" />
             <div className="relative flex flex-col h-full p-5 rounded-sm lg:items-center lg:flex-row">
+              <div className="mb-6 mr-6 lg:mb-0"></div>
               <div className="flex flex-col justify-between flex-grow">
                 <div>
                   <h6 className="mb-2 text-xl font-semibold leading-5 text-secondary">
-                    Build your Project
+                    Protect your Project
                   </h6>
                   <p className="mb-2 text-base sm:text-lg text-white">
-                    From A to Z, whether at the idea, conception, development or
-                    improvement stage, our team of blockchain specialists is
-                    here to help you with all our technology and business
-                    knowledge!
+                    Make sure your project is secure with our full white-box
+                    review of smart contract code to detect any security
+                    vulnerabilities, including statical and dynamical analysis
+                    with an extra manual analysis. At the end, you'll receive a
+                    certification of security!
                   </p>
                 </div>
                 {/* <a

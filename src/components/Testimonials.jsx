@@ -56,7 +56,7 @@ export default function TestimonialSection() {
       <div className="max-w-screen-xl mx-auto py-20 lg:py-24">
         <div data-aos="fade-right" className="flex flex-col items-center">
           <h2 className="text-4xl sm:text-5xl text-white font-black tracking-wide text-center">
-            Our Awesome Customers
+            What our customers say
           </h2>
         </div>
         <div

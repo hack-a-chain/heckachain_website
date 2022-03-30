@@ -19,7 +19,7 @@ export default function Hero() {
                   We are Blockchain Specialists{" "}
                 </span>
               </h1>
-              <p className="max-w-xl mb-4 text-base text-white md:text-lg">
+              <p className="max-w-lg mb-4 text-base text-white md:text-xl">
                 More than a software service. All our business and technology
                 knowledge working for you.
               </p>

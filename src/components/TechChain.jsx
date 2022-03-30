@@ -2,12 +2,12 @@ export default function TechChain() {
   const chain = {
     tech: [
       {
-        img: "/networksChain/solana.svg",
-        alt: "Solana",
-      },
-      {
         img: "/networksChain/near.svg",
         alt: "Near",
+      },
+      {
+        img: "/networksChain/solana.svg",
+        alt: "Solana",
       },
       {
         img: "/networksChain/fantom.svg",
@@ -25,7 +25,7 @@ export default function TechChain() {
         img: "/networksChain/avalanche-avax-logo.svg",
         alt: "Avalanche Avax",
       },
-    ],
+    ]
   };
 
   return (

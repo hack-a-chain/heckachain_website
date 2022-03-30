@@ -58,9 +58,28 @@ export default function Form() {
 
         <div className="row100">
           <div className="col">
+            <div className="inputBox">
+              <input type="text" name="" required />
+              <span className="text">Company (optional)</span>
+              <span className="line"></span>
+            </div>
+          </div>
+          <div className="col">
+            <div className="inputBox">
+              <input type="text" name="" required />
+              <span className="text">Phone number (optional)</span>
+              <span className="line"></span>
+            </div>
+          </div>
+        </div>
+
+        <div className="row100">
+          <div className="col">
             <div className="inputBox textarea">
-              <textarea required></textarea>
-              <span className="text">Project description (optional)</span>
+              {/* <textarea required></textarea> */}
+              <input type="text" name="" required />
+
+              <span className="text">Project short description (optional)</span>
               <span className="line"></span>
             </div>
           </div>

@@ -24,7 +24,10 @@ export default function Journey() {
 
   return (
     <div className="progress">
-      <div className="relative text-center px-4 py-24 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div
+        data-aos="fade-left"
+        className="relative text-center px-4 py-24 mx-auto max-w-7xl sm:px-6 lg:px-8"
+      >
         <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
           <span className="block text-primary xl:inline">
             It doesn’t matter in which stage you are
@@ -35,7 +38,11 @@ export default function Journey() {
         </p>
       </div>
 
-      <div className="progress_inner">
+      <div
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+        className="progress_inner"
+      >
         <div className="progress_inner__step">
           <label htmlFor="step-1">Idea</label>
         </div>

@@ -54,12 +54,16 @@ export default function TestimonialSection() {
   return (
     <div className="relative bg-gradient-to-t from-primary via-indigo-300 to-indigo-500">
       <div className="max-w-screen-xl mx-auto py-20 lg:py-24">
-        <div className="flex flex-col items-center">
+        <div data-aos="fade-right" className="flex flex-col items-center">
           <h2 className="text-4xl sm:text-5xl text-white font-black tracking-wide text-center">
             Our Awesome Customers
           </h2>
         </div>
-        <div className="mt-14">
+        <div
+          className="mt-14"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
           <Slider nextArrow={<NextArrow />} prevArrow={<PreviousArrow />}>
             {testimonials.map((testimonial, index) => (
               <div

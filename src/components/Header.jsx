@@ -69,14 +69,16 @@ export default function Header({ move }) {
             </div>
           </div>
 
-          <Popover.Panel className="sm:hidden flex top-16 absolute z-50 bg-grayHack w-full  ">
-            <div className="px-2 pt-2 pb-3 space-y-1 w-full rounded ">
+          <Popover.Panel
+            className="sm:hidden flex top-16 fixed z-50 w-full bg-grayHack shadow-lg border-b border-primary"
+          >
+            <div className="px-2 pt-2 pb-3 space-y-2 w-full rounded ">
               {navigation.map((item) => (
                 <NavLink
                   key={item.name}
                   as="a"
                   href={item.href}
-                  className="text-gray-300  hover:bg-black focus:bg-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-300 hover:bg-primary focus:bg-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}

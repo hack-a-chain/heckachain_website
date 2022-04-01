@@ -14,7 +14,7 @@ export default function Header({ move }) {
   return (
     <Popover as="nav">
       {({ open }) => (
-        <div className="relative">
+        <div className="relative z-50">
           <div
             className={`fixed w-full left-0 right-0 mx-auto px-2 sm:px-6 lg:px-20 transition-colors ease-in-out delay-200 duration-500 z-50 ${
               move

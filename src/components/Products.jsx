@@ -53,7 +53,7 @@ export default function Products() {
             {logos.map((logo, index) => (
               <div
                 data-aos="zoom-in-left"
-                className={`col-span-1 flex justify-center py-4 z-50 ${
+                className={`col-span-1 flex justify-center py-4 z-40 ${
                   index % 2 !== 0 ? "animate-bounce" : "animate-bounceFirst"
                 }`}
                 key={index}

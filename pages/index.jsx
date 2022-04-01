@@ -7,6 +7,7 @@ import Customers from "../src/components/Customers";
 import Form from "../src/components/Form";
 import Testimonials from "../src/components/Testimonials";
 import Team from "../src/components/Team";
+import About from "../src/components/About";
 import Faq from "../src/components/Faq.";
 import BlockChainAnimate from "../src/components/BlockChainAnimate";
 
@@ -24,6 +25,7 @@ export default function Home() {
       <Customers />
       <Testimonials />
       <Team />
+      <About />
       <Form />
     </>
   );

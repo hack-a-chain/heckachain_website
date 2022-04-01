@@ -1,12 +1,12 @@
 export default function Team() {
   return (
-    <section id="team" className="bg-white dark:bg-grayHack" id="team">
+    <section id="team" className="bg-grayHack">
       <div className="flex flex-col items-center justify-center px-6 py-10 mx-auto max-w-7xl lg:px-8">
         <div data-aos="zoom-in-down">
-          <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
+          <h1 className="text-3xl font-semibold text-center capitalize lg:text-4xl text-white">
             Our <span className="text-primary">Executive Team</span>
           </h1>
-          <p className="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
+          <p className="max-w-2xl mx-auto my-6 text-center text-gray-300">
             We are a quality over quantity company. Our team is composed by top
             world talents that will work hard for you.
           </p>
@@ -16,7 +16,7 @@ export default function Team() {
           data-aos="zoom-in-down"
           className="grid grid-cols-1 gap-8 mt-8 xl:mt-10 md:grid-cols-2 xl:grid-cols-2"
         >
-          <div className="px-12 py-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-primary dark:border-primary dark:hover:border-transparent">
+          <div className="px-12 py-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-primary border-primary">
             <div className="flex flex-col sm:-mx-4 sm:flex-row">
               <img
                 className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
@@ -24,15 +24,15 @@ export default function Team() {
                 alt=""
               />
               <div className="mt-4 sm:mx-4 sm:mt-0">
-                <h1 className="text-xl font-semibold text-primary capitalize md:text-2xl dark:text-gray-300 group-hover:text-white">
+                <h1 className="text-xl font-semibold  capitalize md:text-2xl text-gray-300 group-hover:text-white">
                   João Antônio da Veiga
                 </h1>
-                <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-white">
+                <p className="mt-2  capitalize text-gray-300 group-hover:text-white">
                   CTO
                 </p>
               </div>
             </div>
-            <p className="mt-4 text-gray-500 text-base sm:text-lg dark:text-gray-300 group-hover:text-white">
+            <p className="mt-4  text-base sm:text-lg text-gray-300 group-hover:text-white">
               Technology and Business specialist. "I decided to fully dedicate
               myself to create Web 3.0 when I saw that this is the biggest
               revolution of our time"
@@ -40,7 +40,7 @@ export default function Team() {
             <div className="flex mt-4 -mx-2">
               <a
                 href="#"
-                className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+                className="mx-2 text-gray-300  hover:text-gray-300 group-hover:text-white"
                 aria-label="Reddit"
               >
                 <svg
@@ -54,7 +54,7 @@ export default function Team() {
               </a>
               <a
                 href="#"
-                className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+                className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
                 aria-label="Facebook"
               >
                 <svg
@@ -68,7 +68,7 @@ export default function Team() {
               </a>
               <a
                 href="#"
-                className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+                className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
                 aria-label="Github"
               >
                 <svg
@@ -83,7 +83,7 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="px-12 py-8 transition-colors duration-200 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-primary dark:border-primary dark:hover:border-transparent">
+          <div className="px-12 py-8 transition-colors duration-200 transform border cursor-pointer rounded-xl group hover:bg-primary border-primary hover:border-transparent">
             <div className="flex flex-col sm:-mx-4 sm:flex-row">
               <img
                 className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
@@ -91,15 +91,15 @@ export default function Team() {
                 alt=""
               />
               <div className="mt-4 sm:mx-4 sm:mt-0">
-                <h1 className="text-xl font-semibold capitalize md:text-2xl dark:text-gray-300 group-hover:text-white">
+                <h1 className="text-xl font-semibold capitalize md:text-2xl text-gray-300 group-hover:text-white">
                   Rafael Krás Borges
                 </h1>
-                <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-white">
+                <p className="mt-2  capitalize text-gray-300 group-hover:text-white">
                   CMO
                 </p>
               </div>
             </div>
-            <p className="mt-4 text-gray-500 text-base sm:text-lg dark:text-gray-300 group-hover:text-white">
+            <p className="mt-4  text-base sm:text-lg text-gray-300 group-hover:text-white">
               Marketing and Business specialist. "Web 3.0 is more than a hyped
               technology. We are actually building the infrastucture to a
               sustainable social paradigm change."
@@ -107,7 +107,7 @@ export default function Team() {
             <div className="flex mt-4 -mx-2">
               <a
                 href="#"
-                className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-white group-hover:text-white"
+                className="mx-2  text-gray-300  hover:text-white group-hover:text-white"
                 aria-label="Reddit"
               >
                 <svg
@@ -121,7 +121,7 @@ export default function Team() {
               </a>
               <a
                 href="#"
-                className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-white group-hover:text-white"
+                className="mx-2 text-gray-300  hover:text-white group-hover:text-white"
                 aria-label="Facebook"
               >
                 <svg
@@ -135,7 +135,7 @@ export default function Team() {
               </a>
               <a
                 href="#"
-                className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-white group-hover:text-white"
+                className="mx-2 text-gray-300  hover:text-white group-hover:text-white"
                 aria-label="Github"
               >
                 <svg

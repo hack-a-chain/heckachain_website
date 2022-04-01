@@ -1,3 +1,5 @@
+import NavLink from "./NavLink";
+
 export default function BlockChainAnimate() {
   return (
     <div id="about" className="relative bg-black">
@@ -16,7 +18,7 @@ export default function BlockChainAnimate() {
         <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
           About us
         </h1>
-        <div className="mt-6 text-white prose-lg prose-xl prose-white max-w-3xl bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 p-8 rounded-md">
+        <div className="mt-6 text-white prose-lg prose-lg prose-white max-w-3xl bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 p-8 rounded-md">
           <p>
             Hack-a-Chain was created in 2022, by 2 brazilian entrepreneurs that
             noticed a lack of professionals to help entrepreneurs developing
@@ -48,8 +50,8 @@ export default function BlockChainAnimate() {
 
           <p>
             We aim to build long term partnerships, construct high-quality
-            projects and we do believe in the projects we are working on. Let's
-            go together?
+            projects and we do believe in the projects we are working on.
+            <NavLink className="ml-2 text-primary hover:underline" href="#form">Let's go together?</NavLink>
           </p>
         </div>
       </div>

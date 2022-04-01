@@ -35,7 +35,7 @@ export default function TechChain() {
           data-aos="fade-right"
           className="text-3xl text-center sm:text-4xl  mb-4 text-grayHack font-semibold  lg:text-5xl"
         >
-          Build your project upon EVM or WASM Blockchains.
+          Build your project on EVM or WASM Blockchains.
         </h1>
         <p className="max-w-lg mb-4 text-xl text-white md:text-2xl">
           Not limited to the ones below.

@@ -23,7 +23,7 @@ export default function Journey() {
   }, [checked, pause]);
 
   return (
-    <div className="progress">
+    <div className="progress overflow-hidden relative  h-full max-h-170">
       <div
         data-aos="fade-left"
         className="relative text-center px-4 py-24 mx-auto max-w-7xl sm:px-6 lg:px-8"
@@ -37,6 +37,12 @@ export default function Journey() {
           we are here to help you all over your journey.
         </p>
       </div>
+
+      <img
+        src="/graphics/grafismo-03-invert.png"
+        alt="grafismo"
+        className="absolute opacity-20 sm:-top-5 left-5 overflow-hidden"
+      />
 
       <div
         data-aos="fade-up"

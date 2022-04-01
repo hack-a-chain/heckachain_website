@@ -1,6 +1,15 @@
 export default function Services() {
   return (
-    <div id="services" className="bg-grayHack">
+    <div id="services" className="bg-grayHack relative">
+      <div className="absolute inset-0">
+        <img
+          className="w-full h-full object-cover opacity-40"
+          src="/graphics/grafismo-01.png"
+          alt=""
+        />
+        <div className="absolute inset-0 bg-grayHack mix-blend-multiply" aria-hidden="true" />
+      </div>
+
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="relative flex flex-col mb-6 lg:justify-between lg:flex-row md:mb-8">
           <h2

@@ -22,7 +22,7 @@ export default function BlockChainAnimate() {
             noticed a lack of professionals to help entrepreneurs developing
             high-quality projects for Web 3.0.
           </p>
-          <ul>
+          <ul className="list-disc">
             <li>
               They decided to create a software development company comitted to
               create long time value projects along with visionary

@@ -34,7 +34,7 @@ export default function Journey() {
           </span>
         </h1>
         <p className="mx-auto mt-3 max-w-md text-base text-gray-300 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
-          we can help you all over the journey!
+          we are here to help you all over your journey.
         </p>
       </div>
 

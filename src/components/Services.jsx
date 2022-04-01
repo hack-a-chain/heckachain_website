@@ -1,6 +1,6 @@
 export default function Services() {
   return (
-    <div className="bg-grayHack">
+    <div id="services" className="bg-grayHack">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="relative flex flex-col mb-6 lg:justify-between lg:flex-row md:mb-8">
           <h2
@@ -30,7 +30,7 @@ export default function Services() {
               <div className="flex flex-col justify-between flex-grow">
                 <div>
                   <h6 className="mb-2 text-xl font-semibold leading-5 text-secondary">
-                    Build your Project
+                    Build your project: Blockchain Development
                   </h6>
                   <p className="mb-2 text-base sm:text-lg text-white">
                     From A to Z, whether at the idea, conception, development or
@@ -59,7 +59,7 @@ export default function Services() {
               <div className="flex flex-col justify-between flex-grow">
                 <div>
                   <h6 className="mb-2 text-xl font-semibold leading-5 text-secondary">
-                    Protect your Project
+                    Protect your project: Security Audit
                   </h6>
                   <p className="mb-2 text-base sm:text-lg text-white">
                     Make sure your project is secure with our full white-box

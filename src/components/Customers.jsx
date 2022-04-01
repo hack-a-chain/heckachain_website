@@ -2,7 +2,7 @@ import NavLink from "./NavLink";
 
 export default function Customers() {
   return (
-    <div className="bg-gradient-to-t from-indigo-500 via-primary to-secondary">
+    <div id="customers" className="bg-gradient-to-t from-indigo-500 via-primary to-secondary">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl font-extrabold text-grayHack">
           Projects that already trust us

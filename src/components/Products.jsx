@@ -30,7 +30,7 @@ export default function Products() {
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div data-aos="fade-up">
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl xl:text-5xl">
-              We can build and audit all types of projects in the crypto world
+              Work experience with all kinds of projects in the crypto world.
             </h2>
             <div className="mt-6">
               <NavLink href="#">
@@ -52,7 +52,7 @@ export default function Products() {
             />
             {logos.map((logo, index) => (
               <div
-              data-aos="zoom-in-left"
+                data-aos="zoom-in-left"
                 className={`col-span-1 flex justify-center py-4 z-50 ${
                   index % 2 !== 0 ? "animate-bounce" : "animate-bounceFirst"
                 }`}

@@ -1,15 +1,14 @@
 export default function Team() {
   return (
-    <section className="bg-white dark:bg-grayHack" id="team">
+    <section id="team" className="bg-white dark:bg-grayHack" id="team">
       <div className="flex flex-col items-center justify-center px-6 py-10 mx-auto max-w-7xl lg:px-8">
         <div data-aos="zoom-in-down">
           <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
             Our <span className="text-primary">Executive Team</span>
           </h1>
           <p className="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-            incidunt ex placeat modi magni quia error alias, adipisci rem
-            similique, at omnis eligendi optio eos harum.
+            We are a quality over quantity company. Our team is composed by top
+            world talents that will work hard for you.
           </p>
         </div>
 
@@ -26,7 +25,7 @@ export default function Team() {
               />
               <div className="mt-4 sm:mx-4 sm:mt-0">
                 <h1 className="text-xl font-semibold text-primary capitalize md:text-2xl dark:text-gray-300 group-hover:text-white">
-                  João Veiga
+                  João Antônio da Veiga
                 </h1>
                 <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-white">
                   CTO
@@ -34,8 +33,9 @@ export default function Team() {
               </div>
             </div>
             <p className="mt-4 text-gray-500 text-base sm:text-lg capitalize dark:text-gray-300 group-hover:text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-              nesciunt officia aliquam neque optio? Cumque facere numquam est.
+              Technology and Business specialist. "I decided to fully dedicate
+              myself to create Web 3.0 when I saw that this is the biggest
+              revolution of our time"
             </p>
             <div className="flex mt-4 -mx-2">
               <a
@@ -92,7 +92,7 @@ export default function Team() {
               />
               <div className="mt-4 sm:mx-4 sm:mt-0">
                 <h1 className="text-xl font-semibold capitalize md:text-2xl dark:text-gray-300 group-hover:text-white">
-                  Rafael
+                  Rafael Krás Borges
                 </h1>
                 <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-white">
                   CMO
@@ -100,8 +100,9 @@ export default function Team() {
               </div>
             </div>
             <p className="mt-4 text-gray-500 text-base sm:text-lg capitalize dark:text-gray-300 group-hover:text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-              nesciunt officia aliquam neque optio? Cumque facere numquam est.
+              Marketing and Business specialist. "Web 3.0 is more than a hyped
+              technology. We are actually building the infrastucture to a
+              sustainable social paradigm change."
             </p>
             <div className="flex mt-4 -mx-2">
               <a

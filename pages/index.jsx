@@ -24,7 +24,6 @@ export default function Home() {
       <Customers />
       <Testimonials />
       <Team />
-      <Faq />
       <Form />
     </>
   );

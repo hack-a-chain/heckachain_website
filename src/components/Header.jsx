@@ -4,11 +4,11 @@ import NavLink from "./NavLink";
 
 export default function Header({ move }) {
   const navigation = [
-    { name: "Services", href: "#", current: true },
-    { name: "Clients", href: "#", current: false },
-    { name: "Team", href: "#", current: false },
-    { name: "Contact", href: "#", current: false },
-    { name: "About", href: "#form", current: false },
+    { name: "Services", href: "#services", current: true },
+    { name: "Clients", href: "#customers", current: false },
+    { name: "Team", href: "#team", current: false },
+    { name: "About", href: "#about", current: false },
+    { name: "Contact", href: "#form", current: false },
   ];
 
   return (

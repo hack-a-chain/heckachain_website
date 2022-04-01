@@ -32,7 +32,7 @@ export default function Team() {
                 </p>
               </div>
             </div>
-            <p className="mt-4 text-gray-500 text-base sm:text-lg capitalize dark:text-gray-300 group-hover:text-white">
+            <p className="mt-4 text-gray-500 text-base sm:text-lg dark:text-gray-300 group-hover:text-white">
               Technology and Business specialist. "I decided to fully dedicate
               myself to create Web 3.0 when I saw that this is the biggest
               revolution of our time"
@@ -99,7 +99,7 @@ export default function Team() {
                 </p>
               </div>
             </div>
-            <p className="mt-4 text-gray-500 text-base sm:text-lg capitalize dark:text-gray-300 group-hover:text-white">
+            <p className="mt-4 text-gray-500 text-base sm:text-lg dark:text-gray-300 group-hover:text-white">
               Marketing and Business specialist. "Web 3.0 is more than a hyped
               technology. We are actually building the infrastucture to a
               sustainable social paradigm change."

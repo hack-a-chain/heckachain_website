@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Hero />
       <TechChain />
-      <div className="relative challenges overflow-scroll sm:overflow-non">
+      <div className="relative challenges overflow-scroll sm:overflow-none">
         <Journey />
       </div>
       <Services />

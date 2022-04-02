@@ -265,12 +265,22 @@
   color: white;
   background: #9997FF;
 }
+
 .challenges {
   background: #000;
   color: #6effe2;
   text-align: center;
-  height: 650px;
 }
+
+@media screen and (min-width: 760px) {
+  .challenges {
+    height: 700px;
+  }
+}
+
+
+
+
 .challenges .progress_inner {
   height: 10px;
   width: 700px;

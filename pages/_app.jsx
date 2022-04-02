@@ -76,7 +76,7 @@ function MyApp({ Component, pageProps }) {
       <ArrowCircleUpIcon
         className={
           show
-            ? "w-10 cursor-pointer text-primary fixed bottom-5 right-5 bg-grayHack rounded-full z-50"
+            ? "w-8 sm:w-10 cursor-pointer text-primary fixed bottom-5 right-5 bg-grayHack rounded-full z-50"
             : "hidden"
         }
         onClick={() => scrollToTop()}

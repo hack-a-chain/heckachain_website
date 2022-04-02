@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 
 export default function Hero() {
   return (
-    <div className="relative h-full max-h-170 pt-28 bg-black lg:pb-24 lg:overflow-hidden">
+    <div className="relative h-full max-h-170 pt-20 bg-black lg:pb-24 lg:overflow-hidden">
       <div className="mx-auto max-w-7xl lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
           <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">

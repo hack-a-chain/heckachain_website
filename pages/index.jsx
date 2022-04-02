@@ -8,9 +8,7 @@ import Form from "../src/components/Form";
 import Testimonials from "../src/components/Testimonials";
 import Team from "../src/components/Team";
 import About from "../src/components/About";
-import Faq from "../src/components/Faq.";
-import BlockChainAnimate from "../src/components/BlockChainAnimate";
-
+ 
 export default function Home() {
   return (
     <>
@@ -19,7 +17,6 @@ export default function Home() {
       <div className="relative challenges overflow-scroll sm:overflow-non">
         <Journey />
       </div>
-      {/* <BlockChainAnimate /> */}
       <Services />
       <Products />
       <Customers />

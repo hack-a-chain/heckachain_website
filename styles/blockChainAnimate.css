@@ -1,7 +1,7 @@
 .containerAnimate {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
   transform: translate(-50%, -50%);
   transform-style: preserve-3d;
   perspective: 2000px;
@@ -14,40 +14,40 @@
   left: 50%;
   transform: translate(-50%, -50%);
   transform-style: preserve-3d;
-  transform: translate3d(0em, 3em, 1.5em);
+  transform: translate3d(0em, 2em, 1em);
 }
 .holder:last-child {
-  transform: rotateY(-90deg) rotateX(90deg) translate3d(0, 3em, 1.5em);
+  transform: rotateY(-90deg) rotateX(90deg) translate3d(0, 2em, 1em);
 }
 .holder:first-child {
-  transform: rotateZ(-90deg) rotateX(-90deg) translate3d(0, 3em, 1.5em);
+  transform: rotateZ(-90deg) rotateX(-90deg) translate3d(0, 2em, 1em);
 }
 .holder:nth-child(1) .box {
-  background-color: #1fbcd3;
+  background-color: #454545;
 }
 .holder:nth-child(1) .box:before {
-  background-color: #126d7a;
+  background-color: #1a1a1a;
 }
 .holder:nth-child(1) .box:after {
-  background-color: #1894a7;
+  background-color: #212121;
 }
 .holder:nth-child(2) .box {
-  background-color: #cbe2b4;
+  background-color: #a3ffed
 }
 .holder:nth-child(2) .box:before {
-  background-color: #98c66a;
+  background-color: #40ffd9;
 }
 .holder:nth-child(2) .box:after {
-  background-color: #b2d48f;
+  background-color: #6EFFE2;
 }
 .holder:nth-child(3) .box {
-  background-color: #f6b6ca;
+  background-color: #bcbbff;
 }
 .holder:nth-child(3) .box:before {
-  background-color: #eb5b88;
+  background-color: #726fff;
 }
 .holder:nth-child(3) .box:after {
-  background-color: #f089a9;
+  background-color: #9997FF;
 }
 
 .box {
@@ -56,9 +56,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   transform-style: preserve-3d;
-  animation: ani-box 6s infinite;
-  width: 3em;
-  height: 3em;
+  animation: ani-box 10s infinite;
+  width: 2em;
+  height: 2em;
 }
 .box:before,
 .box:after {
@@ -85,19 +85,19 @@
     transform: translate3d(-50%, -50%, 0) scaleZ(2);
   }
   16.7% {
-    transform: translate3d(-50%, -50%, -3em) scaleZ(1);
+    transform: translate3d(-50%, -50%, -2em) scaleZ(1);
   }
   25% {
-    transform: translate3d(-50%, -100%, -3em) scaleY(2);
+    transform: translate3d(-50%, -100%, -2em) scaleY(2);
   }
   33.3% {
-    transform: translate3d(-50%, -150%, -3em) scaleY(1);
+    transform: translate3d(-50%, -150%, -2em) scaleY(1);
   }
   41.7% {
-    transform: translate3d(-100%, -150%, -3em) scaleX(2);
+    transform: translate3d(-100%, -150%, -2em) scaleX(2);
   }
   50% {
-    transform: translate3d(-150%, -150%, -3em) scaleX(1);
+    transform: translate3d(-150%, -150%, -2em) scaleX(1);
   }
   58.3% {
     transform: translate3d(-150%, -150%, 0) scaleZ(2);

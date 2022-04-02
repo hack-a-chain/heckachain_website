@@ -1,3 +1,5 @@
+import NavLink from "./NavLink";
+
 export default function Services() {
   return (
     <div id="services" className="bg-grayHack relative">
@@ -48,12 +50,12 @@ export default function Services() {
                     knowledge!
                   </p>
                 </div>
-                {/* <a
-                  href="#"
+                <NavLink
+                  href="/Development"
                   className="cursor-pointer text-base font-semibold transition-colors duration-200 text-white hover:text-secondary"
                 >
                   Learn more<span aria-hidden="true"> &rarr;</span>
-                </a> */}
+                </NavLink>
               </div>
             </div>
           </div>
@@ -78,12 +80,12 @@ export default function Services() {
                     certification of security!
                   </p>
                 </div>
-                {/* <a
-                  href="#"
+                <NavLink
+                  href="/Development"
                   className="cursor-pointer text-base font-semibold transition-colors duration-200 text-white hover:text-secondary"
                 >
                   Learn more<span aria-hidden="true"> &rarr;</span>
-                </a> */}
+                </NavLink>
               </div>
             </div>
           </div>

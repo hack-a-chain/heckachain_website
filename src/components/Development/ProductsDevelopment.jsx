@@ -29,7 +29,7 @@ export default function ProductsDevelopment() {
           data-aos="fade-right"
           className="text-3xl text-center sm:text-4xl  mb-4 text-white font-semibold  lg:text-5xl"
         >
-          Work experience with all kinds of projects in the crypto world.
+          Products we have experience building
         </h1>
       </div>
 

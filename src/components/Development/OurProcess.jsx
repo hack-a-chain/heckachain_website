@@ -73,12 +73,12 @@ export default function OurProcess() {
     <div className="relative bg-grayHack px-4 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8 lg:py-20">
       <div className="absolute inset-0">
         <img
-          className="w-full h-full object-cover opacity-40"
+          className="w-full h-full object-cover opacity-30"
           src="/graphics/grafismo-05.png"
-          alt=""
+          alt="background"
         />
         <div
-          className="absolute inset-0 bg-primary mix-blend-multiply"
+          className="absolute inset-0 bg-secondary mix-blend-multiply"
           aria-hidden="true"
         />
       </div>
@@ -88,12 +88,12 @@ export default function OurProcess() {
         </h2>
       </div>
       <div className="grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3">
-        <div className="p-5 text-primary duration-300 transform bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 border-2 border-dashed rounded shadow-sm border-secondary hover:-translate-y-2">
+        <div className="p-5 text-primary duration-300 transform bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 border-2 border-dashed rounded shadow-sm border-secondary  hover:-translate-y-2">
           <div className="flex items-center mb-2">
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-primary">
               1
             </p>
-            <p className="text-xl font-bold leading-5">Architecture</p>
+            <p className="text-2xl font-bold leading-5">Architecture</p>
           </div>
           <div className="relative flex flex-col items-center">
             <div className="mt-2 w-full">
@@ -122,7 +122,7 @@ export default function OurProcess() {
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-primary">
               2
             </p>
-            <p className="text-xl font-bold leading-5">Coding</p>
+            <p className="text-2xl font-bold leading-5">Coding</p>
           </div>
           <div className="relative flex flex-col items-center">
             <div className="mt-2 w-full">
@@ -151,7 +151,7 @@ export default function OurProcess() {
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-primary">
               3
             </p>
-            <p className="text-xl font-bold leading-5">Deployment</p>
+            <p className="text-2xl font-bold leading-5">Deployment</p>
           </div>
           <div className="relative flex flex-col items-center">
             <div className="mt-2 w-full">

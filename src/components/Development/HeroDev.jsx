@@ -1,4 +1,4 @@
-import NavLink from "./NavLink";
+import NavLink from "../NavLink";
 import BlockChainAnimate from "./BlockChainAnimate";
 
 export default function HeroDev() {

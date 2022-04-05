@@ -1,14 +1,14 @@
 import Form from "../src/components/Form";
 import HeroDev from "../src/components/Development/HeroDev";
 import ProductsDevelopment from "../src/components/Development/ProductsDevelopment";
-import DevelopmentProcess from "../src/components/Development/developmentProcess";
+import OurProcess from "../src/components/Development/OurProcess";
 
-export default function development() {
+export default function Blockchain() {
   return (
     <div>
       <HeroDev />
       <ProductsDevelopment />
-      <DevelopmentProcess />
+      <OurProcess />
       <Form />
     </div>
   );

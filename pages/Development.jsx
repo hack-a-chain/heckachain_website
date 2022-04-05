@@ -1,7 +1,7 @@
 import Form from "../src/components/Form";
 import HeroDev from "../src/components/HeroDev";
 
-export default function Development() {
+export default function development() {
   return (
     <div>
       <HeroDev />

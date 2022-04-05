@@ -51,7 +51,7 @@ export default function Services() {
                   </p>
                 </div>
                 <NavLink
-                  href="/Development"
+                  href="/development"
                   className="cursor-pointer text-base font-semibold transition-colors duration-200 text-white hover:text-secondary"
                 >
                   Learn more<span aria-hidden="true"> &rarr;</span>

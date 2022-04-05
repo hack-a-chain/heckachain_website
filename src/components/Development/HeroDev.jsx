@@ -16,16 +16,19 @@ export default function HeroDev() {
       </div>
       <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative max-w-7xl sm:mx-auto text-center">
-          <h2 className="mb-4 font-sans text-2xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none lg:text-5xl">
-            Our team of experts is here to help you from the sketch until the
-            final version of 
-            <span className="relative  inline-block px-2 sm:py-2 mt-3">
-              <div className="absolute inset-0 transform -skew-x-12 bg-primary" />
+          <h2 className="my-8 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none lg:text-5xl">
+            <span className="relative px-2">
+              <div className="absolute inset-0 transform -skew-x-12 bg-secondary" />
               <span className="relative text-grayHack">
-              your product is ready to take off!
+                Build your Web 3.0 project from A to Z with us!
               </span>
             </span>
+            <span className="inline-block text-2xl max-w-4xl mt-3 font-semibold">
+              Our team of experts is here to help you from the sketch until the
+              final version of your product is ready to take off!
+            </span>
           </h2>
+
           <div className="relative py-20">
             <BlockChainAnimate />
           </div>

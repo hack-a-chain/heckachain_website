@@ -33,12 +33,6 @@ export default function Customers() {
               </div>
             </NavLink>
 
-            <NavLink href="https://projectmerge.org/" target="blank">
-              <div className="mt-4 ml-8 flex flex-grow flex-shrink-0 lg:flex-grow-0 lg:ml-4">
-                <img className="max-h-20" src="/customers/merge.webp" alt="logo" />
-              </div>
-            </NavLink>
-
             <NavLink
               href="https://mobile.twitter.com/TokonamiNFT/photo"
               target="blank"

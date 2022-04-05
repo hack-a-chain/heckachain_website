@@ -22,11 +22,11 @@ export default function BlockChainAnimate() {
           <p>
             Hack-a-Chain was created in 2022, by 2 brazilian entrepreneurs that
             noticed a lack of professionals to help entrepreneurs developing
-            high-quality projects for Web 3.0.
+            high-quality projects for Web 3.0
           </p>
           <ul className="list-disc">
             <li>
-              They decided to create a software development company comitted to
+              They decided to create a software development company committed to
               create long time value projects along with visionary
               entrepreneurs.
             </li>
@@ -42,16 +42,19 @@ export default function BlockChainAnimate() {
           </ul>
 
           <p>
-            We know that there are a lot of speculation around crypto and a lot
-            of people that think it has no future. But the truth is that it has
-            come to change the world, and good projects will survive the long
-            run. That's where we want to be positioned.{" "}
+            We know that there is a lot of speculation around crypto and many
+            skeptics think it has no real future. But the truth is crypto,
+            blockchain and web3 in general are already changing the world and
+            good projects will thrive in the long run. We want to help you build
+            the blockchain projects of the future.{" "}
           </p>
 
           <p>
             We aim to build long term partnerships, construct high-quality
             projects and we do believe in the projects we are working on.
-            <NavLink className="ml-2 text-primary hover:underline" href="#form">Let's go together?</NavLink>
+            <NavLink className="ml-2 text-primary hover:underline" href="#form">
+              Let's go together?
+            </NavLink>
           </p>
         </div>
       </div>

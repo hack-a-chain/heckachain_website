@@ -72,21 +72,21 @@ export default function OurProcess() {
   };
 
   const architectureContent = [
-    "Requirements debriefing: We’ll conduct meetings with you to understand what exactly you want to build, with all the requirements. We’ll actively participate in the process sharing ideas and best practices to help you refine your product",
-    "Smart Contract Interface: After understanding all the requirements for the product, the team will develop the smart contract interface, that is, the information and transaction flow that's going to happen between the blockchain and your application.",
-    "Data Structure: The final architectural phase is to carefully construct the data storage structures that the smart contract is going to use. Heavy software engineering skills are required to select the most appropriate structures to hold your application's data in a storage and processing constrained environment such as the blockchain.",
+    "Requirements debriefing:We’ll conduct meetings with you to understand what exactly you want to build, with all the requirements. We’ll actively participate in the process sharing ideas and best practices to help you refine your product",
+    "Smart Contract Interface:After understanding all the requirements for the product, the team will develop the smart contract interface, that is, the information and transaction flow that's going to happen between the blockchain and your application.",
+    "Data Structure:The final architectural phase is to carefully construct the data storage structures that the smart contract is going to use. Heavy software engineering skills are required to select the most appropriate structures to hold your application's data in a storage and processing constrained environment such as the blockchain.",
   ];
 
   const codingContent = [
-    "Smart Contract development: After finalizing the architecture of the software, the next step is to develop automated tests (both unit and simulation tests). These tests ensure that the smart contract does precisely what it is intended to, with no errors or hacks.",
-    "Smart Contract implementation: Now it's time to code the internal logic of the contract and run it through the tests. This is an iterative process that will be repeated until the code passes all quality tests in an efficient and reliable manner.",
+    "Smart Contract development:After finalizing the architecture of the software, the next step is to develop automated tests (both unit and simulation tests). These tests ensure that the smart contract does precisely what it is intended to, with no errors or hacks.",
+    "Smart Contract implementation:Now it's time to code the internal logic of the contract and run it through the tests. This is an iterative process that will be repeated until the code passes all quality tests in an efficient and reliable manner.",
   ];
 
   const deploymentContent = [
-    "Testnet deployment: In this phase the contract will be deployed to the testnet, so that we can test it against a real blockchain environment and uncover bugs and security flaws that went undetected on the initial testing phase.",
-    "Front-end testing: After deployment to testnet it is possible to release the website in a beta version, only interacting with the testnet, so that enthusiasts and the team can test the interface to uncover bugs and improvements.",
-    "External security Audit: It is essential for blockchain projects to receive an external security audit. Even though our firm performs security audits, the conflict of interest in having the same firm develop and test the software is obvious, because of that, the contract will be submitted to a third-party auditor and all security recommendations they give will be implemented.",
-    "Mainnet Deployment: We'll implement all the corrections needed based on the testnet deployment and frontend testing steps. After that, the application is ready to go live on mainnet, so that real users can finally interact with it! After deployment the project is considered fully delivered.",
+    "Testnet deployment:In this phase the contract will be deployed to the testnet, so that we can test it against a real blockchain environment and uncover bugs and security flaws that went undetected on the initial testing phase.",
+    "Front-end testing:After deployment to testnet it is possible to release the website in a beta version, only interacting with the testnet, so that enthusiasts and the team can test the interface to uncover bugs and improvements.",
+    "External security Audit:It is essential for blockchain projects to receive an external security audit. Even though our firm performs security audits, the conflict of interest in having the same firm develop and test the software is obvious, because of that, the contract will be submitted to a third-party auditor and all security recommendations they give will be implemented.",
+    "Mainnet Deployment:We'll implement all the corrections needed based on the testnet deployment and frontend testing steps. After that, the application is ready to go live on mainnet, so that real users can finally interact with it! After deployment the project is considered fully delivered.",
   ];
 
   return (

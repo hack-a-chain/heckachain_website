@@ -24,10 +24,8 @@ export default function TabsModal({ content }) {
     return classes.filter(Boolean).join(" ");
   }
 
-  console.log();
-
   return (
-    <div className="w-full px-2 sm:px-0">
+    <div className="w-full px-2">
       <div>
         <div className="flex p-1 space-x-1 bg-primary/30 rounded-xl">
           {tabs
@@ -38,7 +36,7 @@ export default function TabsModal({ content }) {
                 key={tab.id}
                 className={classNames(
                   "w-full flex justify-center cursor-pointer py-2.5 text-lg leading-5 font-medium items-center text-white rounded-lg",
-                  "focus:outline-none ring-2 ring-transparent ",
+                  "focus:outline-none ring-2 ring-transparent",
                   tab.id == current
                     ? "bg-black shadow ring-primary"
                     : "text-purple-100 hover:bg-white/[0.12] hover:text-white"
@@ -50,11 +48,13 @@ export default function TabsModal({ content }) {
             ))}
         </div>
 
-        <div className="mt-2 text-white">
-          {tabs
-            .map((tab) => tab)
-            .filter((tab) => tab.id == current && tab)
-            .map((tab) => tab.desc)}
+        <div className="m-4 bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 rounded-lg px-5 py-2">
+          <p className="text-white font-medium text-lg">
+            {tabs
+              .map((tab) => tab)
+              .filter((tab) => tab.id == current && tab)
+              .map((tab) => tab.desc)}
+          </p>
         </div>
       </div>
     </div>

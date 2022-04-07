@@ -78,7 +78,7 @@ export default function Engagement() {
             <span className="block text-base text-center text-secondary font-semibold tracking-wide uppercase">
               How we work
             </span>
-            <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-primary sm:text-4xl">
+            <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-primary sm:text-5xl">
               Engagement Model
             </span>
           </h1>

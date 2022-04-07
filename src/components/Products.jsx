@@ -11,15 +11,15 @@ export default function Products() {
       alt: "Token",
     },
     {
-      img: "/productIcons/nft-logo.png",
+      img: "/productIcons/defi.png",
       alt: "DeFi",
     },
     {
-      img: "/productIcons/nft-logo.png",
+      img: "/productIcons/dex.png",
       alt: "DEXs",
     },
     {
-      img: "/productIcons/nft-logo.png",
+      img: "/productIcons/dao.png",
       alt: "DAOs",
     },
   ];
@@ -59,7 +59,7 @@ export default function Products() {
                 key={index}
               >
                 <img
-                  className="max-h-20 transition duration-500 ease-in-out"
+                  className="max-h-24 transition duration-500 ease-in-out"
                   src={logo.img}
                   alt={logo.alt}
                 />

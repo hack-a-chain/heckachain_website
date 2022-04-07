@@ -3,7 +3,7 @@ import BlockChainAnimate from "./BlockChainAnimate";
 
 export default function HeroDev() {
   return (
-    <div className="relative bg-black pt-20 sm:pt-28">
+    <div className="relative bg-black pt-20">
       <div className="absolute inset-x-0 bottom-0">
         <svg
           viewBox="0 0 224 12"
@@ -14,7 +14,7 @@ export default function HeroDev() {
           <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z" />
         </svg>
       </div>
-      <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative max-w-7xl sm:mx-auto text-center">
           <h2 className="my-8 text-2xl tracking-tight text-white sm:text-4xl sm:leading-none lg:text-5xl">
             <span className="relative px-2">

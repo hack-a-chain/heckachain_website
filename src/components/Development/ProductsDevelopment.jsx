@@ -9,15 +9,15 @@ export default function ProductsDevelopment() {
       alt: "Token",
     },
     {
-      img: "/productIcons/nft-logo.png",
+      img: "/productIcons/defi.png",
       alt: "DeFi",
     },
     {
-      img: "/productIcons/nft-logo.png",
+      img: "/productIcons/dex.png",
       alt: "DEXs",
     },
     {
-      img: "/productIcons/nft-logo.png",
+      img: "/productIcons/dao.png",
       alt: "DAOs",
     },
   ];
@@ -40,13 +40,13 @@ export default function ProductsDevelopment() {
         {products.map((item, index) => (
           <div
             key={index}
-            className={`bg-transparent ml-2 px-4 flex justify-center items-center m-2 cursor-pointer ${
+            className={`h-28 w-28 bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 shadow-xl ml-2 rounded-full flex justify-center items-center p-5 px-1 m-2 cursor-pointer ${
               index % 2 !== 0 ? "animate-bounce" : "animate-bounceFirst"
             }`}
             title={item.alt}
           >
             <img
-              className="h-28 transition duration-500 ease-in-out"
+              className="max-h-20 transition duration-500 ease-in-out"
               src={item.img}
               alt={item.alt}
             />

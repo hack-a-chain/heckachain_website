@@ -2,9 +2,11 @@ import { useState } from "react";
 import Slider from "react-slick";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/outline";
 import NavLink from "../NavLink";
+import Collapse from "@kunukn/react-collapse";
 
 export default function Cases() {
   const [sliderRef, setSliderRef] = useState(null);
+  const [open, setOpen] = useState(false);
 
   const testimonials = [
     {
@@ -14,6 +16,10 @@ export default function Cases() {
       customerName: "Kangaroo Coin Flip",
     },
   ];
+
+  function classNames(...classes) {
+    return classes.filter(Boolean).join(" ");
+  }
 
   return (
     <div className="relative px-8 bg-grayHack text-gray-100">
@@ -51,7 +57,7 @@ export default function Cases() {
               className="px-6 py-12 sm:px-20 sm:py-14 focus:outline-none flex flex-col justify-between h-full"
               key={index}
             >
-              <div className="relative">
+              <div className="relative flex flex-col items-center">
                 <svg
                   className="absolute opacity-40 top-0 left-0 transform -translate-y-2 -translate-x-1/2 sm:-translate-x-full w-10 fill-current text-primary"
                   viewBox="0 0 24 24"
@@ -61,9 +67,29 @@ export default function Cases() {
                     d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"
                   />
                 </svg>
-                <blockquote className="font-medium sm:font-normal relative text-sm sm:text-xl text-center sm:text-left text-primary">
-                  {testimonial.quote}
-                </blockquote>
+                <Collapse addState isOpen={open} collapseHeight="120px">
+                  <blockquote className="font-medium sm:font-normal relative flex items-start text-sm sm:text-xl text-center sm:text-left text-primary">
+                    {testimonial.quote}
+                  </blockquote>
+                </Collapse>
+
+                <div className="mt-2">
+                  {!open ? (
+                    <button
+                      className="text-primary font-semibold hover:underline"
+                      onClick={() => setOpen(true)}
+                    >
+                      Read more
+                    </button>
+                  ) : (
+                    <button
+                      className="text-primary font-semibold hover:underline"
+                      onClick={() => setOpen(false)}
+                    >
+                      Read less
+                    </button>
+                  )}
+                </div>
               </div>
 
               <div className="mt-8 flex items-center flex-col sm:flex-row justify-center text-center sm:text-left">

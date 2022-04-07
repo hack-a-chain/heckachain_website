@@ -21,20 +21,8 @@
     top: 0;
     right: 0;
     width: 3px;
-    /* height: 100%; */
     background: linear-gradient(to top, #6EFFE2, #9997FF);
-    /* animation: animate 5s linear infinite; */
 }
-
-/* @keyframes animate {
-    0%, 100% {
-        filter: hue-rotate(0deg)
-    }
-
-    50% {
-        filter: hue-rotate(360deg)
-    }
-} */
 
 #progressbar::before {
     content: '';
@@ -44,7 +32,6 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(to top, #6EFFE2, #9997FF);
-    /* filter: blur(5px);  */
 }
 
 #progressbar::after {
@@ -55,6 +42,9 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(to top, #6EFFE2, #9997FF);
-    /* filter: blur(5px); */
+}
+
+.collapse-css-transition {
+    transition: height 280ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

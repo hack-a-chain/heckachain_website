@@ -75,7 +75,7 @@ export default function OurProcess() {
   ];
 
   return (
-    <div className="relative py-10 flex flex-col items-center bg-grayHack px-4 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8 lg:py-20">
+    <div id="ourprocess" className="relative py-10 flex flex-col items-center bg-grayHack px-4 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8 lg:py-20">
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover opacity-30"
@@ -87,12 +87,12 @@ export default function OurProcess() {
           aria-hidden="true"
         />
       </div>
-      <div className="max-w-xl  mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-12">
+      <div data-aos="fade-left" className="max-w-xl  mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-12">
         <h2 className="mb-6  text-3xl font-bold leading-none tracking-tight text-white sm:text-4xl lg:text-5xl md:mx-auto">
           Our Development Process
         </h2>
       </div>
-      <div className="grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3 max-w-7xl">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className="grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3 max-w-7xl">
         <div className="relative p-3 lg:p-5 text-primary duration-300 transform bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 border-2 border-dashed rounded shadow-sm border-secondary  hover:-translate-y-2">
           <div className="flex items-center mb-2">
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-primary">

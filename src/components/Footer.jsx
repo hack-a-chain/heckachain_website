@@ -3,10 +3,10 @@ import NavLink from "./NavLink";
 export default function Footer() {
   const navigation = {
     solutions: [
-      { name: "Smart contract security audit", href: "#" },
-      { name: "KYC verification", href: "#" },
-      { name: "Blockchain development", href: "#" },
-      { name: "Security consulting", href: "#" },
+      { name: "Engagement Model", href: "/blockchain-development/#engagement" },
+      { name: "Smart Contract test development", href: "/blockchain-development/#ourprocess" },
+      { name: "Smart contract security audit", href: "/blockchain-development/#ourprocess" },
+      { name: "Cases", href: "/blockchain-development/#cases" },
     ],
     links: [
       {
@@ -23,8 +23,8 @@ export default function Footer() {
       },
     ],
     company: [
-      { name: "Faq", href: "#faq" },
-      { name: "Team", href: "#team" },
+      { name: "Faq", href: "/#faq" },
+      { name: "Team", href: "/#team" },
       { name: "Contact Us", href: "#form" },
     ],
     social: [
@@ -97,7 +97,7 @@ export default function Footer() {
             <div className="md:grid md:grid-cols-1 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold text-white tracking-wider uppercase">
-                  Solutions
+                  Featured
                 </h3>
                 <ul className="mt-4 space-y-4">
                   {navigation.solutions.map((item) => (

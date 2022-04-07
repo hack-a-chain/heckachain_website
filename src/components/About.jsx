@@ -15,10 +15,10 @@ export default function BlockChainAnimate() {
         />
       </div>
       <div className="relative max-w-7xl flex flex-col items-center mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
+        <h1 data-aos="fade-down" className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
           About us
         </h1>
-        <div className="mt-6 text-white prose-lg prose-lg prose-white max-w-3xl bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 p-8 rounded-md">
+        <div data-aos="zoom-out-up" className="mt-6 text-white prose-lg prose-lg prose-white max-w-3xl bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 p-8 rounded-md">
           <p>
             Hack-a-Chain was created in 2022, by 2 brazilian entrepreneurs that
             noticed a lack of professionals to help entrepreneurs developing

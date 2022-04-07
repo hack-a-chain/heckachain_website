@@ -1,6 +1,6 @@
 export default function Engagement() {
   return (
-    <div className="relative py-16 bg-grayHack bg-[url('/graphics/textura.png')] bg-center bg-no-repeat bg-cover overflow-hidden">
+    <div id="engagement" className="relative py-16 bg-grayHack bg-[url('/graphics/textura.png')] bg-center bg-no-repeat bg-cover overflow-hidden">
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
         <div
           className="relative h-full text-lg max-w-prose mx-auto"
@@ -73,7 +73,7 @@ export default function Engagement() {
         </div>
       </div>
       <div className="relative px-4 sm:px-6 lg:px-8">
-        <div className="text-lg max-w-prose mx-auto">
+        <div data-aos="fade-down" className="text-lg max-w-prose mx-auto">
           <h1>
             <span className="block text-base text-center text-secondary font-semibold tracking-wide uppercase">
               How we work
@@ -91,7 +91,7 @@ export default function Engagement() {
             the back-end.
           </p>
         </div>
-        <div className="mt-6 prose prose-indigo prose-lg text-white mx-auto">
+        <div data-aos="fade-up" className="mt-6 prose prose-indigo prose-lg text-white mx-auto">
           <p>
             That’s why we are specialized in conducting as much test as it’s
             needed to make sure it works perfectly before we deploy it. You’ll

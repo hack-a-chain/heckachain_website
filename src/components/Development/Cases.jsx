@@ -17,12 +17,8 @@ export default function Cases() {
     },
   ];
 
-  function classNames(...classes) {
-    return classes.filter(Boolean).join(" ");
-  }
-
   return (
-    <div className="relative px-8 bg-grayHack text-gray-100">
+    <div id="cases" className="relative px-8 bg-grayHack text-gray-100">
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover opacity-20"
@@ -57,7 +53,7 @@ export default function Cases() {
               className="px-6 py-12 sm:px-20 sm:py-14 focus:outline-none flex flex-col justify-between h-full"
               key={index}
             >
-              <div className="relative flex flex-col items-center">
+              <div data-aos="zoom-out-left" className="relative flex flex-col items-center">
                 <svg
                   className="absolute opacity-40 top-0 left-0 transform -translate-y-2 -translate-x-1/2 sm:-translate-x-full w-10 fill-current text-primary"
                   viewBox="0 0 24 24"
@@ -92,7 +88,7 @@ export default function Cases() {
                 </div>
               </div>
 
-              <div className="mt-8 flex items-center flex-col sm:flex-row justify-center text-center sm:text-left">
+              <div data-aos="zoom-out-right" className="mt-8 flex items-center flex-col sm:flex-row justify-center text-center sm:text-left">
                 <img
                   className="w-20 h-20"
                   src={testimonial.imageSrc}

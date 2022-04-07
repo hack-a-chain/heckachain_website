@@ -44,7 +44,7 @@ export default function ModalProcess({ open, setOpen, title, content }) {
             <div className="relative bg-grayHack inline-block align-bottom rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full">
               <div className="absolute inset-0">
                 <img
-                  className="w-full h-full object-cover opacity-40"
+                  className="w-full h-full object-cover opacity-60"
                   src="/graphics/grafismo-01.png"
                   alt="background"
                 />

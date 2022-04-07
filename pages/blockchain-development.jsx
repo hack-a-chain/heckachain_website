@@ -7,7 +7,7 @@ import Cases from "../src/components/Development/Cases";
 
 export default function Blockchain() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <HeroDev />
       <ProductsDevelopment />
       <Cases />

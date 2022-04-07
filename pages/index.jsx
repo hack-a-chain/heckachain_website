@@ -11,7 +11,7 @@ import About from "../src/components/About";
  
 export default function Home() {
   return (
-    <>
+    <div className="overflow-hidden">
       <Hero />
       <TechChain />
       <div className="relative challenges overflow-scroll sm:overflow-none">
@@ -24,6 +24,6 @@ export default function Home() {
       <Team />
       <About />
       <Form />
-    </>
+    </div>
   );
 }

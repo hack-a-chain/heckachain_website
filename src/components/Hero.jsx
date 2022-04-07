@@ -33,7 +33,7 @@ export default function Hero() {
               </NavLink>
             </div>
           </div>
-          <div className="mt-12 pb-5 sm:pb-0 lg:relative">
+          <div className=" mt-12 pb-10 sm:pb-0 lg:relative">
             <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               <HeroAnimate />
             </div>

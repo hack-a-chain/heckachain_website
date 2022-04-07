@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/outline";
 
 const NextArrow = ({ currentSlide, slideCount, ...props }) => (
-  <div className="absolute top-0 h-full flex items-end md:items-center z-20 right-10">
+  <div className="absolute bottom-14 sm:top-0 h-full flex items-end md:items-center z-20 right-10">
     <button
       {...props}
       className="text-white hover:text-secondary focus:outline-none transition duration-300 hover:scale-125 transform -translate-y-2/3 md:translate-y-0"
@@ -13,7 +13,7 @@ const NextArrow = ({ currentSlide, slideCount, ...props }) => (
 );
 
 const PreviousArrow = ({ currentSlide, slideCount, ...props }) => (
-  <div className="absolute top-0 h-full flex items-end md:items-center z-20 left-10">
+  <div className="absolute bottom-14 sm:top-0 h-full flex items-end md:items-center z-20 left-10">
     <button
       {...props}
       className="text-white hover:text-secondary focus:outline-none transition duration-300 hover:scale-125 transform -translate-y-2/3 md:translate-y-0"
@@ -47,7 +47,7 @@ export default function TestimonialSection() {
     <div className="relative bg-gradient-to-t from-primary via-indigo-300 to-indigo-500">
       <div className="max-w-screen-xl mx-auto py-20 lg:py-24">
         <div data-aos="fade-right" className="flex flex-col items-center">
-          <h2 className="text-4xl sm:text-5xl text-white font-black tracking-wide text-center">
+          <h2 className="text-4xl px-5 sm:text-5xl text-white font-black tracking-wide text-center">
             What our customers say
           </h2>
         </div>
@@ -70,7 +70,7 @@ export default function TestimonialSection() {
                   />
                 </div>
                 <div className="md:mx-3 lg:mx-6 md:w-6/12 py-4 flex flex-col justify-between">
-                  <div className="relative p-6 mt-4 md:mt-0">
+                  <div className="relative p-6">
                     <blockquote className="text-grayHack text-center md:text-left font-medium text-xl">
                       {testimonial.quote}
                     </blockquote>

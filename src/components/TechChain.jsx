@@ -49,13 +49,13 @@ export default function TechChain() {
         {chain.tech.map((item, index) => (
           <div
             key={index}
-            className={`h-32 w-32 bg-gray-100 shadow-xl ml-2 rounded-full flex justify-center items-center p-5 px-1 m-2 cursor-pointer ${
+            className={`h-28 w-28 sm:h-32 sm:w-32 bg-gray-100 shadow-xl ml-2 rounded-full flex justify-center items-center p-5 px-1 m-2 cursor-pointer ${
               index % 2 !== 0 ? "animate-bounce" : "animate-bounceFirst"
             }`}
             title={item.alt}
           >
             <img
-              className="w-40 h-16 transition duration-500 ease-in-out"
+              className="w-32 h-16 sm:w-40 sm:h-16 transition duration-500 ease-in-out"
               src={item.img}
               alt={item.alt}
             />

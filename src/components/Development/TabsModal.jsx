@@ -48,7 +48,7 @@ export default function TabsModal({ content }) {
             ))}
         </div>
 
-        <div className="m-4 bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 rounded-lg px-5 py-2">
+        <div className="m-4 bg-primary bg-opacity-10 rounded-lg px-5 py-2">
           <p className="text-white font-medium text-lg">
             {tabs
               .map((tab) => tab)

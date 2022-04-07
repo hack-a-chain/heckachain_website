@@ -11,12 +11,7 @@ export default function OurProcess() {
     architecture: [
       {
         id: 1,
-        title: (
-          <ul className="divide-y divide-primary">
-            <li className="py-1">Requirements debriefing</li>
-            <li className="pt-1">Process sharing</li>
-          </ul>
-        ),
+        title: "Requirements debriefing",
       },
       {
         id: 2,
@@ -30,21 +25,11 @@ export default function OurProcess() {
     coding: [
       {
         id: 1,
-        title: (
-          <ul className="divide-y divide-primary">
-            <li className="py-1">Smart Contract development</li>
-            <li className="pt-1">Automated tests</li>
-          </ul>
-        ),
+        title: "Smart Contract test development",
       },
       {
         id: 2,
-        title: (
-          <ul className="divide-y divide-primary">
-            <li className="py-1">Smart Contract implementation</li>
-            <li className="pt-1">Iterative process</li>
-          </ul>
-        ),
+        title: "Smart Contract implementation",
       },
     ],
     deployment: [
@@ -90,7 +75,7 @@ export default function OurProcess() {
   ];
 
   return (
-    <div className="relative bg-grayHack px-4 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8 lg:py-20">
+    <div className="relative py-10 bg-grayHack px-4 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8 lg:py-20">
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover opacity-30"
@@ -102,26 +87,26 @@ export default function OurProcess() {
           aria-hidden="true"
         />
       </div>
-      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-        <h2 className="  mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-white sm:text-4xl lg:text-5xl md:mx-auto">
+      <div className="max-w-xl  mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-12">
+        <h2 className="mb-6  text-3xl font-bold leading-none tracking-tight text-white sm:text-4xl lg:text-5xl md:mx-auto">
           Our Development Process
         </h2>
       </div>
-      <div className="grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3">
-        <div className="p-5 text-primary duration-300 transform bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 border-2 border-dashed rounded shadow-sm border-secondary  hover:-translate-y-2">
+      <div className="grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3 max-w-7xl">
+        <div className="relative p-3 lg:p-5 text-primary duration-300 transform bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 border-2 border-dashed rounded shadow-sm border-secondary  hover:-translate-y-2">
           <div className="flex items-center mb-2">
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-primary">
               1
             </p>
             <p className="text-2xl font-bold leading-5">Architecture</p>
           </div>
-          <div className="relative flex flex-col items-center">
-            <div className="mt-2 w-full">
-              <ul className="divide-y divide-primary">
+          <div className="flex flex-col items-center">
+            <div className="mt-2 w-full flex justify-center">
+              <ul className="divide-y divide-secondary divide-opacity-50">
                 {process.architecture.map((item) => (
                   <li key={item.id} className="py-1">
                     <div className="relative focus-within:ring-2 focus-within:ring-indigo-500">
-                      <h3 className="text-base font-semibold text-white">
+                      <h3 className="font-anonymous text-xl font-semibold text-white">
                         <span className="absolute inset-0" aria-hidden="true" />
                         {item.title}
                       </h3>
@@ -130,34 +115,34 @@ export default function OurProcess() {
                 ))}
               </ul>
             </div>
-            <div className="mt-3">
+            <div className="mt-4 lg:absolute lg:bottom-5">
               <button
                 onClick={() => {
                   setOpen(true);
                   setTitle("Architecture");
                   setContent(architectureContent);
                 }}
-                className="cursor-pointer text-base font-semibold transition-colors duration-200 text-white hover:text-primary"
+                className="cursor-pointer text-lg font-medium transition-colors duration-200 text-white hover:text-primary"
               >
-                View all<span aria-hidden="true"> &rarr;</span>
+                View details<span aria-hidden="true"> &rarr;</span>
               </button>
             </div>
           </div>
         </div>
-        <div className="p-5 text-primary duration-300 transform bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 border-2 border-dashed rounded shadow-sm border-secondary hover:-translate-y-2">
+        <div className="relative p-3 lg:p-5 text-primary duration-300 transform bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 border-2 border-dashed rounded shadow-sm border-secondary hover:-translate-y-2">
           <div className="flex items-center mb-2">
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-primary">
               2
             </p>
             <p className="text-2xl font-bold leading-5">Coding</p>
           </div>
-          <div className="relative flex flex-col items-center">
-            <div className="mt-2 w-full">
-              <ul className="divide-y divide-primary">
+          <div className="flex flex-col items-center">
+            <div className="mt-2 w-full flex justify-center">
+              <ul className="divide-y divide-secondary divide-opacity-50">
                 {process.coding.map((item) => (
                   <li key={item.id} className="py-1">
                     <div className="relative focus-within:ring-2 focus-within:ring-indigo-500">
-                      <h3 className="text-base font-semibold text-white">
+                      <h3 className="font-anonymous text-xl font-semibold text-white">
                         <span className="absolute inset-0" aria-hidden="true" />
                         {item.title}
                       </h3>
@@ -166,21 +151,21 @@ export default function OurProcess() {
                 ))}
               </ul>
             </div>
-            <div className="mt-3">
+            <div className="mt-4 lg:absolute lg:bottom-5">
               <button
                 onClick={() => {
                   setOpen(true);
                   setTitle("Coding");
                   setContent(codingContent);
                 }}
-                className="cursor-pointer text-base font-semibold transition-colors duration-200 text-white hover:text-primary"
+                className="cursor-pointer text-lg font-medium transition-colors duration-200 text-white hover:text-primary"
               >
-                View all<span aria-hidden="true"> &rarr;</span>
+                View details<span aria-hidden="true"> &rarr;</span>
               </button>
             </div>
           </div>
         </div>
-        <div className="relative p-5 text-primary duration-300 transform bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 border-2 rounded shadow-sm border-secondary hover:-translate-y-2">
+        <div className="relative p-3 lg:p-5 text-primary duration-300 transform bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 border-2 rounded shadow-sm border-secondary hover:-translate-y-2">
           <div className="flex items-center mb-2">
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-primary">
               3
@@ -188,12 +173,12 @@ export default function OurProcess() {
             <p className="text-2xl font-bold leading-5">Deployment</p>
           </div>
           <div className="relative flex flex-col items-center">
-            <div className="mt-2 w-full">
-              <ul className="divide-y divide-primary">
+            <div className="mt-2 w-full flex justify-center">
+              <ul className="divide-y divide-secondary divide-opacity-50">
                 {process.deployment.map((item) => (
                   <li key={item.id} className="py-1">
                     <div className="relative focus-within:ring-2 focus-within:ring-indigo-500">
-                      <h3 className="text-base font-semibold text-white">
+                      <h3 className="font-anonymous text-xl font-semibold text-white">
                         <span className="absolute inset-0" aria-hidden="true" />
                         {item.title}
                       </h3>
@@ -202,16 +187,16 @@ export default function OurProcess() {
                 ))}
               </ul>
             </div>
-            <div className="mt-3">
+            <div className="mt-4">
               <button
                 onClick={() => {
                   setOpen(true);
                   setTitle("Deployment");
                   setContent(deploymentContent);
                 }}
-                className="cursor-pointer text-base font-semibold transition-colors duration-200 text-white hover:text-primary"
+                className="cursor-pointer text-lg font-medium transition-colors duration-200 text-white hover:text-primary"
               >
-                View all<span aria-hidden="true"> &rarr;</span>
+                View details<span aria-hidden="true"> &rarr;</span>
               </button>
             </div>
           </div>

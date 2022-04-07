@@ -16,7 +16,7 @@ export default function Services() {
         <div className="relative flex flex-col mb-6 lg:justify-between lg:flex-row md:mb-8">
           <h2
             data-aos="fade-right"
-            className="max-w-lg mb-5 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none md:mb-6 xl:text-5xl group"
+            className="max-w-lg mb-5  text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none md:mb-6 xl:text-5xl group"
           >
             <span className="inline-block ">Our Services</span>
             {/* <div className="h-1 ml-auto duration-500 origin-left transform bg-secondary scale-x-30 group-hover:scale-x-100" /> */}

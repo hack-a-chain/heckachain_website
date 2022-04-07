@@ -35,11 +35,11 @@ export default function TestimonialSection() {
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
+        "https://images.unsplash.com/photo-1580852300654-03c803a14e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4.25&w=512&h=512&q=80",
       quote:
         "Hack-a-Chain stepped up and took over development of Kangaroo Coin Flip when we needed help the most. Quickly they built out the KCF backend and fully integrated the existing front end. Comments from our auditors: 'without a doubt the best contract we've audited so far'.",
-      customerName: "David",
-      customerTitle: "Founder, Classy Kangaroos",
+      customerName: "David Leer",
+      customerTitle: "Co-Founder, Jump Dex & Trove Labs",
     },
   ];
 
@@ -71,7 +71,7 @@ export default function TestimonialSection() {
                 </div>
                 <div className="md:mx-3 lg:mx-6 md:w-6/12 py-4 flex flex-col justify-between">
                   <div className="relative p-6 mt-4 md:mt-0">
-                    <blockquote className="text-grayHack text-center md:text-left font-medium text-xl lg:text-2xl">
+                    <blockquote className="text-grayHack text-center md:text-left font-medium text-xl">
                       {testimonial.quote}
                     </blockquote>
                   </div>

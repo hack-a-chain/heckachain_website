@@ -35,7 +35,7 @@ export default function HeroDev() {
 
           <div className="relative pt-10">
             <NavLink
-              href="#"
+              href="#engagement"
               aria-label="Scroll down"
               className="flex items-center justify-center w-10 h-10 mx-auto text-white transform border border-gray-400 rounded-full hover:text-primary hover:border-primary hover:shadow hover:scale-110 animate-bounce transition duration-500 ease-in-out"
             >

@@ -75,7 +75,7 @@ export default function OurProcess() {
   ];
 
   return (
-    <div id="ourprocess" className="relative py-10 flex flex-col items-center bg-grayHack px-4 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-8 lg:py-20">
+    <div id="ourprocess" className="relative py-10 flex flex-col items-center bg-grayHack px-4 mx-auto    md:px-24 lg:px-8 lg:py-20">
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover opacity-30"

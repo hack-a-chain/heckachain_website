@@ -18,7 +18,7 @@ export default function Cases() {
   ];
 
   return (
-    <div id="cases" className="relative px-8 bg-grayHack text-gray-100">
+    <div id="cases" className="relative sm:px-8 bg-grayHack text-gray-100">
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover opacity-20"
@@ -63,8 +63,8 @@ export default function Cases() {
                     d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"
                   />
                 </svg>
-                <Collapse addState isOpen={open} collapseHeight="120px">
-                  <blockquote className="font-medium sm:font-normal relative flex items-start text-sm sm:text-xl text-center sm:text-left text-primary">
+                <Collapse addState isOpen={open} collapseHeight="140px">
+                  <blockquote className="font-medium mt-8 sm:mt-0 sm:font-normal relative flex items-start text-sm sm:text-xl text-left sm:text-left text-primary">
                     {testimonial.quote}
                   </blockquote>
                 </Collapse>

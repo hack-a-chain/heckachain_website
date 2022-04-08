@@ -4,6 +4,7 @@ import ProductsDevelopment from "../src/components/Development/ProductsDevelopme
 import OurProcess from "../src/components/Development/OurProcess";
 import Engagement from "../src/components/Development/Engagement";
 import Cases from "../src/components/Development/Cases";
+import TestimoniesDevelopment from "../src/components/Development/TestimoniesDevelopment";
 
 export default function Blockchain() {
   return (
@@ -13,6 +14,7 @@ export default function Blockchain() {
       <Cases />
       <Engagement />
       <OurProcess />
+      <TestimoniesDevelopment />
       <Form />
     </div>
   );

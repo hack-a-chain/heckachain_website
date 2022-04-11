@@ -58,7 +58,7 @@ export default function JourneyMobile() {
               </p>
             </div>
           </div>
-          <div className="flex">
+          {/* <div className="flex">
             <div className="flex flex-col items-center mr-4">
               <div>
                 <div className="flex items-center justify-center w-10 h-10 border rounded-full">
@@ -75,12 +75,12 @@ export default function JourneyMobile() {
                 are at your disposal to audit your smart contracts.
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="flex">
             <div className="flex flex-col items-center mr-4">
               <div>
                 <div className="flex items-center justify-center w-10 h-10 border rounded-full">
-                  5
+                  4
                 </div>
               </div>
             </div>

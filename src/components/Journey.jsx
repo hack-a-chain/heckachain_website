@@ -38,7 +38,7 @@ export default function Journey() {
   useEffect(() => {
     if (!pause) {
       var timeout = setTimeout(() => {
-        checked < 5 ? setChecked(checked + 1) : setChecked(1);
+        checked < 4 ? setChecked(checked + 1) : setChecked(1);
       }, 3000);
 
       return () => clearTimeout(timeout);
@@ -82,11 +82,11 @@ export default function Journey() {
           <div className="progress_inner__step">
             <label htmlFor="step-3">Development</label>
           </div>
-          <div className="progress_inner__step">
+          {/* <div className="progress_inner__step">
             <label htmlFor="step-4">Auditing</label>
-          </div>
+          </div> */}
           <div className="progress_inner__step">
-            <label htmlFor="step-5">Improvement</label>
+            <label htmlFor="step-4">Improvement</label>
           </div>
 
           <input
@@ -117,13 +117,13 @@ export default function Journey() {
             id="step-4"
             type="radio"
           />
-          <input
+          {/* <input
             checked={checked === 5}
             onChange={() => setChecked(5)}
             onClick={() => onPause(5)}
             id="step-5"
             type="radio"
-          />
+          /> */}
 
           <div className="progress">
             <div className="progress_inner">
@@ -166,7 +166,7 @@ export default function Journey() {
                   Development
                 </label>
               </div>
-              <div className="progress_inner__step">
+              {/* <div className="progress_inner__step">
                 <label
                   htmlFor="step-4"
                   onMouseOver={() => onPause(4)}
@@ -178,15 +178,15 @@ export default function Journey() {
                 >
                   Auditing
                 </label>
-              </div>
+              </div> */}
               <div className="progress_inner__step">
                 <label
-                  htmlFor="step-5"
-                  onMouseOver={() => onPause(5)}
-                  onMouseLeave={() => onMove(5)}
+                  htmlFor="step-4"
+                  onMouseOver={() => onPause(4)}
+                  onMouseLeave={() => onMove(4)}
                   onClick={() => {
-                    setChecked(5);
-                    onPause(5);
+                    setChecked(4);
+                    onPause(4);
                   }}
                 >
                   Improvement
@@ -258,7 +258,7 @@ export default function Journey() {
                     we’ll deliver a high-quality product.
                   </p>
                 </div>
-                <div className="tab tab-3">
+                {/* <div className="tab tab-3">
                   <h1>Auditing</h1>
                   <p>
                     If you have already developed your project and just need
@@ -266,8 +266,8 @@ export default function Journey() {
                     correct, we are at your disposal to audit your smart
                     contracts.
                   </p>
-                </div>
-                <div className="tab tab-4">
+                </div> */}
+                <div className="tab tab-3">
                   <h1>Improvement</h1>
                   <p>
                     Thinking about building a new version for your project?

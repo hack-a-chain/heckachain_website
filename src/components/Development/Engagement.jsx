@@ -1,6 +1,6 @@
 export default function Engagement() {
   return (
-    <div id="engagement" className="relative py-16 bg-grayHack overflow-hidden">
+    <div id="engagement" className="relative py-16 bg-black overflow-hidden">
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
         <div
           className="relative h-full text-lg max-w-prose mx-auto"

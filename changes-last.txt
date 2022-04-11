@@ -1,0 +1,16 @@
+stages - remove audits
+products(5) - mobile - dao no meio
+
+stage - OK
+clients - OK
+engaagemente - OK
+services e process - OK
+products - OK
+cases - OK
+testmo - OK
+team - OK
+about us - OK
+
+products with glassmorphism - OK
+add 2 for team - OK
+remove sahil - OK

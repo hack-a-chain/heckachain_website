@@ -27,7 +27,7 @@ export default function Products() {
   return (
     <div className="bg-black overflow-hidden relative">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-20 lg:px-8 md:py-16">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
           <div data-aos="fade-up">
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl xl:text-5xl">
               Work experience with all kinds of projects in the crypto world.
@@ -44,7 +44,7 @@ export default function Products() {
             </div>
           </div>
 
-          <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
+          <div className="mt-8 grid grid-cols-2 gap-1 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
             <img
               src="/graphics/grafismo-03.png"
               alt="grafismo"
@@ -53,13 +53,13 @@ export default function Products() {
             {logos.map((logo, index) => (
               <div
                 data-aos="zoom-in-left"
-                className={`col-span-1 flex justify-center py-4 z-40 ${
+                className={`${index === 4 ? 'col-span-2' : 'col-span-1'} py-4 z-40 h-28 w-28 bg-white backdrop-filter backdrop-blur-sm bg-opacity-10 shadow-xl ml-2 rounded-full flex justify-center items-center p-5 px-1 m-2 cursor-pointer ${
                   index % 2 !== 0 ? "animate-bounce" : "animate-bounceFirst"
                 }`}
                 key={index}
               >
                 <img
-                  className="max-h-24 transition duration-500 ease-in-out"
+                  className="max-h-20 transition duration-500 ease-in-out"
                   src={logo.img}
                   alt={logo.alt}
                 />

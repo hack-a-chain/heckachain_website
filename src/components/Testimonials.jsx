@@ -25,14 +25,14 @@ const PreviousArrow = ({ currentSlide, slideCount, ...props }) => (
 
 export default function TestimonialSection() {
   const testimonials = [
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
-      quote:
-        "Hackachain provides an in-depth review of core development principles and strategies executed; their team is extremely professional and provide great detail during the smart contract auditing process.",
-      customerName: "Sahil Jain",
-      customerTitle: "Founder, Deliq Finance",
-    },
+    // {
+    //   imageSrc:
+    //     "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
+    //   quote:
+    //     "Hackachain provides an in-depth review of core development principles and strategies executed; their team is extremely professional and provide great detail during the smart contract auditing process.",
+    //   customerName: "Sahil Jain",
+    //   customerTitle: "Founder, Deliq Finance",
+    // },
     {
       imageSrc:
         "https://images.unsplash.com/photo-1580852300654-03c803a14e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4.25&w=512&h=512&q=80",

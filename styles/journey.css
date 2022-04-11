@@ -1,4 +1,4 @@
-.progress_inner #step-5:checked + div + div + div + div > .box_base,
+/* .progress_inner #step-5:checked + div + div + div + div > .box_base, */
 .progress_inner #step-4:checked + input + div + div + div + div > .box_base,
 .progress_inner
   #step-2:checked
@@ -34,7 +34,7 @@
   left: 0px;
   opacity: 1;
 }
-.progress_inner #step-5:checked + div + div + div + div > .box_item,
+/* .progress_inner #step-5:checked + div + div + div + div > .box_item, */
 .progress_inner #step-4:checked + input + div + div + div + div > .box_item,
 .progress_inner
   #step-2:checked
@@ -71,7 +71,7 @@
   opacity: 0;
 }
 
-.progress_inner #step-5:checked + div + div + div + div > .box_lid,
+/* .progress_inner #step-5:checked + div + div + div + div > .box_lid, */
 .progress_inner #step-4:checked + input + div + div + div + div > .box_lid,
 .progress_inner
   #step-2:checked
@@ -87,7 +87,7 @@
   left: 0px;
   opacity: 0;
 }
-.progress_inner #step-5:checked + div + div + div + div > .box_item,
+/* .progress_inner #step-5:checked + div + div + div + div > .box_item, */
 .progress_inner #step-4:checked + input + div + div + div + div > .box_item,
 .progress_inner
   #step-2:checked
@@ -104,7 +104,7 @@
   opacity: 1;
 }
 
-.progress_inner #step-5:checked + div + div + div + div > .box_item,
+/* .progress_inner #step-5:checked + div + div + div + div > .box_item, */
 .progress_inner #step-4:checked + input + div + div + div + div > .box_item,
 .progress_inner
   #step-3:checked
@@ -119,7 +119,7 @@
   left: 0px;
   opacity: 1;
 }
-.progress_inner #step-5:checked + div + div + div + div > .box_lid,
+/* .progress_inner #step-5:checked + div + div + div + div > .box_lid, */
 .progress_inner #step-4:checked + input + div + div + div + div > .box_lid,
 .progress_inner
   #step-3:checked
@@ -134,7 +134,7 @@
   left: 0px;
   opacity: 1;
 }
-.progress_inner #step-5:checked + div + div + div + div > .box_ribbon,
+/* .progress_inner #step-5:checked + div + div + div + div > .box_ribbon, */
 .progress_inner #step-4:checked + input + div + div + div + div > .box_ribbon,
 .progress_inner
   #step-3:checked
@@ -149,7 +149,7 @@
   left: 0px;
   opacity: 0;
 }
-.progress_inner #step-5:checked + div + div + div + div > .box_bow,
+/* .progress_inner #step-5:checked + div + div + div + div > .box_bow, */
 .progress_inner #step-4:checked + input + div + div + div + div > .box_bow,
 .progress_inner
   #step-3:checked
@@ -165,20 +165,20 @@
   opacity: 0;
 }
 
-.progress_inner #step-5:checked + div + div + div + div > .box_ribbon,
+/* .progress_inner #step-5:checked + div + div + div + div > .box_ribbon, */
 .progress_inner #step-4:checked + input + div + div + div + div > .box_ribbon {
   top: 50%;
   left: 0px;
   opacity: 1;
 }
-.progress_inner #step-5:checked + div + div + div + div > .box_bow,
+/* .progress_inner #step-5:checked + div + div + div + div > .box_bow, */
 .progress_inner #step-4:checked + input + div + div + div + div > .box_bow {
   top: -10px;
   left: 0px;
   opacity: 1;
 }
 
-.progress_inner #step-5:checked + div + div + div + div > .box_tag {
+/* .progress_inner #step-5:checked + div + div + div + div > .box_tag {
   top: 10px;
   left: 20px;
   opacity: 1;
@@ -187,7 +187,7 @@
   top: 10px;
   left: 20px;
   opacity: 1;
-}
+} */
 
 .progress_inner__step:before,
 .progress_inner,
@@ -286,7 +286,7 @@
   width: 700px;
 }
 
-.challenges .progress_inner #step-5:checked + input + div {
+/* .challenges .progress_inner #step-5:checked + input + div {
   width: 80%;
 }
 .challenges
@@ -302,7 +302,7 @@
 }
 .challenges .progress_inner #step-5:checked + input + div + div + div + div {
   right: 10%;
-}
+} */
 .challenges .progress_inner #step-4:checked + input + input + div {
   width: 60%;
 }
@@ -446,12 +446,12 @@
 .challenges .progress_inner__step:nth-of-type(4):before {
   content: "4";
 }
-.challenges .progress_inner__step:nth-of-type(5):before {
+/* .challenges .progress_inner__step:nth-of-type(5):before {
   content: "5";
-}
+} */
 
 .challenges .progress_inner__bar--set {
-  width: 80%;
+  width: 60%;
   top: -6px;
   background: repeating-linear-gradient(
     45deg,

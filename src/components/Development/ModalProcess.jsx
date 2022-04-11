@@ -10,11 +10,11 @@ export default function ModalProcess({ open, setOpen, title, content }) {
     <Transition.Root show={open} as={Fragment}>
       <Dialog
         as="div"
-        className="fixed z-10 inset-0 overflow-y-auto"
+        className="fixed z-50 inset-0 overflow-y-auto"
         initialFocus={cancelButtonRef}
         onClose={setOpen}
       >
-        <div className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+        <div className="flex items-center justify-center min-h-screen pt-4 px-2 sm:px-4 pb-20 text-center sm:block sm:p-0">
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -41,7 +41,7 @@ export default function ModalProcess({ open, setOpen, title, content }) {
             leaveFrom="opacity-100 translate-y-0 sm:scale-100"
             leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
           >
-            <div className="relative bg-grayHack inline-block align-bottom rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full">
+            <div className="relative bg-grayHack inline-block align-middle rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8  sm:max-w-4xl sm:w-full">
               <div className="absolute inset-0">
                 <img
                   className="w-full h-full object-cover opacity-60"
@@ -66,7 +66,7 @@ export default function ModalProcess({ open, setOpen, title, content }) {
                   </button>
                 </div>
               </div>
-              <div className="relative px-4 pt-5 pb-4 sm:pt-0 sm:pb-4">
+              <div className="relative sm:px-4 pb-4 sm:pt-0 sm:pb-4">
                 {/* {content} */}
                 <TabsModal content={content} />
               </div>

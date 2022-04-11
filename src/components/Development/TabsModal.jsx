@@ -25,7 +25,7 @@ export default function TabsModal({ content }) {
   }
 
   return (
-    <div className="w-full px-2">
+    <div className="w-full px-1 sm:px-2">
       <div>
         <div className="flex p-1 space-x-1 bg-primary/30 rounded-xl">
           {tabs
@@ -35,7 +35,7 @@ export default function TabsModal({ content }) {
               <span
                 key={tab.id}
                 className={classNames(
-                  "w-full flex justify-center cursor-pointer py-2.5 text-lg leading-5 font-medium items-center text-white rounded-lg",
+                  "w-full flex justify-center cursor-pointer py-2.5 text-sm sm:text-lg leading-5 font-medium text-center items-center text-white rounded-lg",
                   "focus:outline-none ring-2 ring-transparent",
                   tab.id == current
                     ? "bg-black shadow ring-primary"

@@ -470,10 +470,7 @@
   text-align: center;
   margin-top: 110px;
   border: 1px solid #6effe2;
-  padding: 30px 20px;
-  background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(25px);
+  padding: 30px 20px; 
   border-radius: 1rem;
 }
 .challenges .progress_inner__tabs .tab h1 {

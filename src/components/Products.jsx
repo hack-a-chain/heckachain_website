@@ -28,17 +28,17 @@ export default function Products() {
     <div className="bg-black overflow-hidden relative">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-20 lg:px-8 md:py-16">
         <div className="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
-          <div data-aos="fade-up">
+          <div data-aos="fade-up  z-50">
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl xl:text-5xl">
               Work experience with all kinds of projects in the crypto world.
             </h2>
             <div className="mt-6">
-              <NavLink href="#">
+              <NavLink href="#form">
                 <button
                   type="button"
                   className="inline-flex items-center px-5 py-2 border border-transparent  mt-3 text-base sm:mt-8 sm:text-xl lg:text-lg xl:text-xl leading-4 font-semibold rounded text-white bg-primary hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 animate-bounce transition duration-500 ease-in-out"
                 >
-                  Learn more
+                  Contact us
                 </button>
               </NavLink>
             </div>

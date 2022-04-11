@@ -232,7 +232,7 @@ export default function Journey() {
               <div className="progress_inner__bar" />
               <div className="progress_inner__bar--set" />
               <div className="relative transition duration-300 transform shadow-sm progress_inner__tabs hover:shadow-xl">
-                <div className="tab tab-0 ">
+                <div className="tab tab-0 bg-white backdrop-filter backdrop-blur-sm bg-opacity-10">
                   <h1>Idea</h1>
                   <p>
                     Participating in the ideation phase is surely something
@@ -241,7 +241,7 @@ export default function Journey() {
                     you can have to it.
                   </p>
                 </div>
-                <div className="tab tab-1">
+                <div className="tab tab-1 bg-white backdrop-filter backdrop-blur-sm bg-opacity-10">
                   <h1>Conception</h1>
                   <p>
                     When you already have your idea, it’s time to understand
@@ -249,7 +249,7 @@ export default function Journey() {
                     specialized at.
                   </p>
                 </div>
-                <div className="tab tab-2">
+                <div className="tab tab-2 bg-white backdrop-filter backdrop-blur-sm bg-opacity-10">
                   <h1>Development</h1>
                   <p>
                     We have a talented team of engineers who can develop your
@@ -267,7 +267,7 @@ export default function Journey() {
                     contracts.
                   </p>
                 </div> */}
-                <div className="tab tab-3">
+                <div className="tab tab-3 bg-white backdrop-filter backdrop-blur-sm bg-opacity-10">
                   <h1>Improvement</h1>
                   <p>
                     Thinking about building a new version for your project?

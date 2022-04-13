@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Slider from "react-slick";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/outline";
-import NavLink from "../NavLink";
+import NavLink from "./NavLink";
 import Collapse from "@kunukn/react-collapse";
 
 export default function Cases() {

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import NavLink from "../NavLink";
+import NavLink from "./NavLink";
 import BlockChainAnimate from "./BlockChainAnimate";
 
 import ModalProcess from "./ModalProcess";

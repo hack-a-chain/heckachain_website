@@ -3,10 +3,9 @@ import NavLink from "./NavLink";
 export default function Footer() {
   const navigation = {
     solutions: [
-      { name: "Engagement Model", href: "/blockchain-development/#engagement" },
-      { name: "Smart Contract test development", href: "/blockchain-development/#ourprocess" },
-      { name: "Smart contract security audit", href: "/blockchain-development/#ourprocess" },
-      { name: "Cases", href: "/blockchain-development/#cases" },
+      { name: "Engagement Model", href: "/#engagement" },
+      { name: "Smart Contract test development", href: "/#ourprocess" },
+      { name: "Cases", href: "/#cases" },
     ],
     links: [
       {

@@ -4,7 +4,7 @@ import NavLink from "./NavLink";
 
 export default function Header({ move }) {
   const navigation = [
-    { name: "Services", href: "#services", current: true },
+    { name: "Model", href: "#engagement", current: true },
     { name: "Clients", href: "#customers", current: false },
     { name: "Team", href: "#team", current: false },
     { name: "About", href: "#about", current: false },
@@ -14,7 +14,7 @@ export default function Header({ move }) {
   return (
     <Popover as="nav">
       {({ open }) => (
-        <div className="relative z-50">
+        <div className="relative" style={{zIndex: '9999'}}>
           <div
             className={`fixed w-full left-0 right-0 mx-auto px-2 sm:px-6 lg:px-20 transition-colors ease-in-out delay-200 duration-500 z-50 ${
               move

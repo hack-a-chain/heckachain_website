@@ -96,9 +96,7 @@
 }
 
 .containerForm .row100 .col .inputBox input:focus + .text,
-.containerForm .row100 .col .inputBox input:valid + .text,
-.containerForm .row100 .col .inputBox textarea:focus + .text,
-.containerForm .row100 .col .inputBox textarea:valid + .text {
+.containerForm .row100 .col .inputBox textarea:focus + .text {
   top: -35px;
   left: -10px;
 }

@@ -3,7 +3,7 @@ export default function Team() {
     <section id="team" className="bg-grayHack">
       <div className="flex flex-col items-center justify-center px-6 py-10 mx-auto max-w-7xl lg:px-8">
         <div data-aos="zoom-in-down">
-          <h1 className="text-3xl font-semibold text-center capitalize lg:text-4xl text-white">
+          <h1 className="text-3xl font-semibold text-center capitalize lg:text-5xl text-white">
             Our <span className="text-primary">Executive Team</span>
           </h1>
           <p className="max-w-2xl mx-auto my-6 text-center text-gray-300">

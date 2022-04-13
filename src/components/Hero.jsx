@@ -41,7 +41,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div class="triangle_vert"></div>
+      <div className="triangle_vert"></div>
     </div>
   );
 }

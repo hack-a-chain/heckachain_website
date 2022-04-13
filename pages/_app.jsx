@@ -65,11 +65,7 @@ function MyApp({ Component, pageProps }) {
         <img
           src="/telegram.svg"
           alt=""
-          className={
-            show
-              ? "w-8 sm:w-10 shadow-xl cursor-pointer text-primary fixed bottom-20 right-5 bg-white rounded-full z-50 hover:animate-bounce transition-all delay-150 ease-in-out"
-              : "hidden"
-          }
+          className="w-8 sm:w-10 shadow-xl cursor-pointer text-primary fixed bottom-20 right-5 rounded-full z-50 hover:animate-bounce transition-all delay-150 ease-in-out"
         />
       </NavLink>
 

@@ -2327,7 +2327,7 @@ RK5CYII="
               <stop offset={1} style={{ stopColor: "#FFFFFF" }} />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               fill="url(#SVGID_41_)"
               points="733.6,720 683.4,767.8 491.1,643.4 
 		555.6,608.9 		"
@@ -2366,7 +2366,7 @@ RK5CYII="
               <stop offset={1} style={{ stopColor: "#6EFFE2" }} />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               fill="url(#SVGID_42_)"
               points="777.3,682.4 718.3,724 493.5,577.2 
 		556,537.9 		"
@@ -2410,7 +2410,7 @@ RK5CYII="
               <stop offset={1} style={{ stopColor: "#FFFFFF" }} />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               fill="url(#SVGID_43_)"
               points="672,693.7 672,760.4 492.3,643.8 
 		492.7,577.2 		"
@@ -2433,7 +2433,7 @@ RK5CYII="
               <stop offset={1} style={{ stopColor: "#FFFFFF" }} />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               fill="url(#SVGID_44_)"
               points="672,717 672,736.3 492.3,619.6 492.7,600.5 
 				"
@@ -2456,14 +2456,14 @@ RK5CYII="
               <stop offset={1} style={{ stopColor: "#FFFFFF" }} />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               fill="url(#SVGID_45_)"
               points="733.3,655.8 732.3,668.5 555,550.9 555,537.7 
 				"
               enableBackground="new    "
               opacity="0.2"
             />
-            <g classname="particlespoly" opacity="0.25">
+            <g className="particlespoly" opacity="0.25">
               <polygon
                 fill="#FFFFFF"
                 points="602.1,626.4 605.2,611 632.9,608.1 636.4,604.4 601.7,607.7 597.7,629.2 			"
@@ -6218,7 +6218,7 @@ CzAAqYTVOPWO2yYAAAAASUVORK5CYII="
               />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               opacity="0.25"
               fill="url(#SVGID_147_)"
               enableBackground="new    "
@@ -6245,7 +6245,7 @@ CzAAqYTVOPWO2yYAAAAASUVORK5CYII="
               />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               opacity="0.75"
               fill="url(#SVGID_148_)"
               enableBackground="new    "
@@ -6302,7 +6302,7 @@ CzAAqYTVOPWO2yYAAAAASUVORK5CYII="
               />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               opacity="0.6"
               fill="url(#SVGID_149_)"
               enableBackground="new    "
@@ -6325,7 +6325,7 @@ CzAAqYTVOPWO2yYAAAAASUVORK5CYII="
               />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               opacity="0.35"
               fill="url(#SVGID_150_)"
               enableBackground="new    "
@@ -6348,7 +6348,7 @@ CzAAqYTVOPWO2yYAAAAASUVORK5CYII="
               />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               opacity="0.2"
               fill="url(#SVGID_151_)"
               enableBackground="new    "
@@ -6393,7 +6393,7 @@ CzAAqYTVOPWO2yYAAAAASUVORK5CYII="
               />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               opacity="0.25"
               fill="url(#SVGID_152_)"
               enableBackground="new    "
@@ -6420,7 +6420,7 @@ CzAAqYTVOPWO2yYAAAAASUVORK5CYII="
               />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               opacity="0.75"
               fill="url(#SVGID_153_)"
               enableBackground="new    "
@@ -6481,7 +6481,7 @@ CzAAqYTVOPWO2yYAAAAASUVORK5CYII="
               />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               opacity="0.6"
               fill="url(#SVGID_154_)"
               enableBackground="new    "
@@ -6504,7 +6504,7 @@ CzAAqYTVOPWO2yYAAAAASUVORK5CYII="
               />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               opacity="0.35"
               fill="url(#SVGID_155_)"
               enableBackground="new    "
@@ -6527,7 +6527,7 @@ CzAAqYTVOPWO2yYAAAAASUVORK5CYII="
               />
             </linearGradient>
             <polygon
-              classname="particlespoly"
+              className="particlespoly"
               opacity="0.2"
               fill="url(#SVGID_156_)"
               enableBackground="new    "

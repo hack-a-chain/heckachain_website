@@ -1,12 +1,10 @@
 export function html(data) {
   const { email, telegram, description } = data;
 
-  return `
+  let body = `
     <h1>Contact</h1>
     <table style="width: 150px; height: 127px;">
         <tbody>
-            
-        
             <tr style="height: 23px;">
                 <td style="width: 72.0938px; height: 23px;">Email:</td>
                 <td style="width: 75.9062px; height: 23px;">${email}</td>
@@ -17,10 +15,16 @@ export function html(data) {
             </tr>
         </tbody>
     </table>
-    <br />
-    <div><b>Project short description:</b>
-    <p>${description}</p></div>
-    `;
+    <br />`;
+
+  if (description) {
+    body =
+      body +
+      ` <div><b>Project short description:</b>
+          <p>${description}</p></div> `;
+  }
+
+  return body;
 }
 
 export function text(data) {

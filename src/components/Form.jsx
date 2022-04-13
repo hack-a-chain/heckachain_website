@@ -1,6 +1,5 @@
 import NavLink from "./NavLink";
 import { Controller, useForm } from "react-hook-form";
-import NumberFormat from "react-number-format";
 import { useState } from "react";
 
 const Feedback = ({ state, message }) => {
@@ -125,7 +124,7 @@ export default function Form() {
               <div className="col">
                 <div className="inputBox">
                   <input
-                    {...register("github", { required: true })}
+                    {...register("github", { required: false })}
                     type="text"
                     name="github"
                     id="github"
@@ -138,7 +137,7 @@ export default function Form() {
               <div className="col">
                 <div className="inputBox">
                   <input
-                    {...register("website", { required: true })}
+                    {...register("website", { required: false })}
                     type="text"
                     name="website"
                     id="website"
@@ -154,7 +153,7 @@ export default function Form() {
               <div className="col">
                 <div className="inputBox">
                   <input
-                    {...register("company", { required: true })}
+                    {...register("company", { required: false })}
                     type="text"
                     name="company"
                     id="company"
@@ -170,7 +169,7 @@ export default function Form() {
               <div className="col">
                 <div className="inputBox textarea">
                   <input
-                    {...register("description", { required: true })}
+                    {...register("description", { required: false })}
                     type="text"
                     name="description"
                     id="description"

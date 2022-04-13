@@ -1,5 +1,4 @@
 stages - centralizar
-alinhar products(5) 
 animação mobile
 
 

@@ -115,8 +115,8 @@
   pointer-events: none;
 }
 
-.containerForm .row100 .col .inputBox input:focus ~ .line,
-.containerForm .row100 .col .inputBox input:valid ~ .line {
+.containerForm .row100 .col .inputBox input:focus ~ .line 
+ {
   height: 100%;
 }
 
@@ -127,8 +127,8 @@
   /* padding: 10px 0; */
 }
 
-.containerForm .row100 .col .inputBox textarea:focus ~ .line,
-.containerForm .row100 .col .inputBox textarea:valid ~ .line {
+.containerForm .row100 .col .inputBox textarea:focus ~ .line 
+  {
   height: 100%;
 }
 

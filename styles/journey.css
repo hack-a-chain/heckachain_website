@@ -239,7 +239,7 @@
   pointer-events: none;
 }
 .challenges .progress_inner__step {
-  width: 20%;
+  width: 25%;
   font-size: 16px;
   padding: 0 10px;
   transition: all 0.4s;
@@ -301,7 +301,7 @@
   right: 10%;
 } */
 .challenges .progress_inner #step-4:checked + input + input + div {
-  width: 60%;
+  width: 75%;
 }
 .challenges
   .progress_inner
@@ -324,10 +324,10 @@
   + div
   + div
   + div {
-  right: 30%;
+  right: 12.5%;
 }
 .challenges .progress_inner #step-3:checked + input + input + input + div {
-  width: 40%;
+  width: 50%;
 }
 .challenges
   .progress_inner
@@ -352,7 +352,7 @@
   + div
   + div
   + div {
-  right: 50%;
+  right: 37.5%;
 }
 .challenges
   .progress_inner
@@ -362,7 +362,7 @@
   + input
   + input
   + div {
-  width: 20%;
+  width: 25%;
 }
 .challenges
   .progress_inner
@@ -389,7 +389,8 @@
   + div
   + div
   + div {
-  right: 70%;
+  right: 62.5%;
+  
 }
 .challenges
   .progress_inner
@@ -429,7 +430,7 @@
   + div
   + div
   + div {
-  right: 90%;
+  right: 87.5%;
 }
 .challenges .progress_inner__step:nth-of-type(1):before {
   content: "1";
@@ -448,7 +449,7 @@
 } */
 
 .challenges .progress_inner__bar--set {
-  width: 60%;
+  width: 75%;
   top: -6px;
   background: repeating-linear-gradient(
     45deg,

@@ -46,17 +46,17 @@ export default function Journey() {
   }, [checked, pause]);
 
   return (
-    <div className="progress overflow-hidden relative h-full">
+    <div className="relative h-full overflow-hidden progress">
       <div
         data-aos="fade-left"
-        className="relative text-center px-4 py-10 sm:py-24 mx-auto max-w-7xl sm:px-6 lg:px-8"
+        className="relative px-4 py-10 mx-auto text-center sm:py-24 max-w-7xl sm:px-6 lg:px-8"
       >
         <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
           <span className="block text-primary xl:inline">
             It doesn’t matter in which stage you are
           </span>
         </h1>
-        <p className="mx-auto mt-3 max-w-md text-base text-gray-300 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
+        <p className="max-w-md mx-auto mt-3 text-base text-gray-300 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
           we are here to help you all over your journey.
         </p>
       </div>
@@ -64,7 +64,7 @@ export default function Journey() {
       <img
         src="/graphics/grafismo-03-invert.png"
         alt="grafismo"
-        className="absolute opacity-20 sm:-top-5 left-5 overflow-hidden"
+        className="absolute overflow-hidden opacity-20 sm:-top-5 left-5"
       />
 
       {showComponentDesktop ? (
@@ -73,58 +73,6 @@ export default function Journey() {
           data-aos-anchor-placement="top-bottom"
           className="progress_inner"
         >
-          <div className="progress_inner__step">
-            <label htmlFor="step-1">Idea</label>
-          </div>
-          <div className="progress_inner__step">
-            <label htmlFor="step-2">Conception</label>
-          </div>
-          <div className="progress_inner__step">
-            <label htmlFor="step-3">Development</label>
-          </div>
-          {/* <div className="progress_inner__step">
-            <label htmlFor="step-4">Auditing</label>
-          </div> */}
-          <div className="progress_inner__step">
-            <label htmlFor="step-4">Improvement</label>
-          </div>
-
-          <input
-            checked={checked === 1}
-            onChange={() => setChecked(1)}
-            onClick={() => onPause(1)}
-            id="step-1"
-            type="radio"
-          />
-          <input
-            checked={checked === 2}
-            onChange={() => setChecked(2)}
-            onClick={() => onPause(2)}
-            id="step-2"
-            type="radio"
-          />
-          <input
-            checked={checked === 3}
-            onChange={() => setChecked(3)}
-            onClick={() => onPause(3)}
-            id="step-3"
-            type="radio"
-          />
-          <input
-            checked={checked === 4}
-            onChange={() => setChecked(4)}
-            onClick={() => onPause(4)}
-            id="step-4"
-            type="radio"
-          />
-          {/* <input
-            checked={checked === 5}
-            onChange={() => setChecked(5)}
-            onClick={() => onPause(5)}
-            id="step-5"
-            type="radio"
-          /> */}
-
           <div className="progress">
             <div className="progress_inner">
               <div className="progress_inner__step">
@@ -232,7 +180,7 @@ export default function Journey() {
               <div className="progress_inner__bar" />
               <div className="progress_inner__bar--set" />
               <div className="relative transition duration-300 transform shadow-sm progress_inner__tabs hover:shadow-xl">
-                <div className="tab tab-0 bg-white backdrop-filter backdrop-blur-sm bg-opacity-10">
+                <div className="bg-white tab tab-0 backdrop-filter backdrop-blur-sm bg-opacity-10">
                   <h1>Idea</h1>
                   <p>
                     Participating in the ideation phase is surely something
@@ -241,7 +189,7 @@ export default function Journey() {
                     you can have to it.
                   </p>
                 </div>
-                <div className="tab tab-1 bg-white backdrop-filter backdrop-blur-sm bg-opacity-10">
+                <div className="bg-white tab tab-1 backdrop-filter backdrop-blur-sm bg-opacity-10">
                   <h1>Conception</h1>
                   <p>
                     When you already have your idea, it’s time to understand
@@ -249,7 +197,7 @@ export default function Journey() {
                     specialized at.
                   </p>
                 </div>
-                <div className="tab tab-2 bg-white backdrop-filter backdrop-blur-sm bg-opacity-10">
+                <div className="bg-white tab tab-2 backdrop-filter backdrop-blur-sm bg-opacity-10">
                   <h1>Development</h1>
                   <p>
                     We have a talented team of engineers who can develop your
@@ -267,7 +215,7 @@ export default function Journey() {
                     contracts.
                   </p>
                 </div> */}
-                <div className="tab tab-3 bg-white backdrop-filter backdrop-blur-sm bg-opacity-10">
+                <div className="bg-white tab tab-3 backdrop-filter backdrop-blur-sm bg-opacity-10">
                   <h1>Improvement</h1>
                   <p>
                     Thinking about building a new version for your project?

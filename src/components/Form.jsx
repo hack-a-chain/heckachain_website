@@ -1,6 +1,8 @@
 import NavLink from "./NavLink";
-import { Controller, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { useState } from "react";
+import { XCircleIcon, CheckCircleIcon } from "@heroicons/react/outline";
+
 
 const Feedback = ({ state, message }) => {
   if (state == "error") {

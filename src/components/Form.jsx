@@ -58,7 +58,7 @@ export default function Form() {
   const [feedback, setFeedback] = useState({ state: null, message: null });
 
   const onSubmit = async (data) => {
-    const response = await fetch("/api/email", {
+    const response = await fetch("https://formspree.io/f/mlezpzav", {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -88,7 +88,7 @@ export default function Form() {
       {feedback.state != "success" && (
         <form
           id="form"
-          className="sectionForm py-16 md:px-24 lg:px-8 lg:py-20 font-anonymous"
+          className="py-16 sectionForm md:px-24 lg:px-8 lg:py-20 font-anonymous"
           onSubmit={handleSubmit(onSubmit)}
         >
           <div data-aos="zoom-in-down" className="containerForm">
@@ -186,13 +186,13 @@ export default function Form() {
             </div>
 
             <div className="row100">
-              <div className="col flex flex-col sm:flex-row justify-center items-start sm:justify-start sm:items-center">
+              <div className="flex flex-col items-start justify-center col sm:flex-row sm:justify-start sm:items-center">
                 <input
                   type="submit"
                   value="Submit"
-                  className="text-white px-5 py-2 border border-white rounded cursor-pointer"
+                  className="px-5 py-2 text-white border border-white rounded cursor-pointer"
                 />
-                <span className="text-white mt-4 ml-0 sm:ml-4 sm:mt-0">
+                <span className="mt-4 ml-0 text-white sm:ml-4 sm:mt-0">
                   In a hurry?
                   <NavLink
                     className="ml-2 hover:text-primary"

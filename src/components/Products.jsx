@@ -1,5 +1,3 @@
-import NavLink from "./NavLink";
-
 export default function Products() {
   const logos = [
     {
@@ -32,16 +30,6 @@ export default function Products() {
             <h2 className="text-3xl z-50 font-extrabold text-white sm:text-4xl xl:text-5xl">
               Work experience with all kinds of projects in the crypto world.
             </h2>
-            <div className="mt-6">
-              <NavLink href="#form">
-                <button
-                  type="button"
-                  className="inline-flex items-center px-5 py-2 border border-transparent  mt-3 text-base sm:mt-8 sm:text-xl lg:text-lg xl:text-xl leading-4 font-semibold rounded text-white bg-primary hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 animate-bounce transition duration-500 ease-in-out"
-                >
-                  Contact us
-                </button>
-              </NavLink>
-            </div>
           </div>
 
           <img

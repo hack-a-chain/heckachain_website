@@ -1,44 +1,17 @@
 import NavLink from "./NavLink";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
-import { XCircleIcon, CheckCircleIcon } from "@heroicons/react/outline";
+import { ToastContainer, toast } from "react-toastify";
 
+const error = () =>
+  toast.warn("Error!", {
+    theme: "dark",
+  });
 
-const Feedback = ({ state, message }) => {
-  if (state == "error") {
-    return (
-      <div className="p-4 rounded-md bg-red-50">
-        <div className="flex">
-          <div className="flex-shrink-0">
-            <XCircleIcon className="w-5 h-5 text-red-400" aria-hidden="true" />
-          </div>
-          <div className="ml-3">
-            <h3 className="text-sm font-medium text-red-800">{message}</h3>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  return (
-    <div className="p-4 mt-5 rounded-md bg-green-50">
-      <div className="flex">
-        <div className="flex-shrink-0">
-          <CheckCircleIcon
-            className="w-5 h-5 text-green-400"
-            aria-hidden="true"
-          />
-        </div>
-        <div className="ml-3">
-          <h3 className="text-sm font-medium text-green-800">Sucesso!</h3>
-          <div className="mt-2 text-sm text-green-700">
-            <p>{message}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
+const success = () =>
+  toast.success("Send!", {
+    theme: "dark",
+  });
 
 const ErrorComponent = (props) => {
   const { text } = props;
@@ -72,141 +45,139 @@ export default function Form() {
         state: "error",
         message: "Erro no envio. Tente novamente mais tarde.",
       });
+      error();
       return false;
     }
 
     const mailSent = await response.json();
 
     setFeedback({ state: "success", message: mailSent.message });
+    success();
   };
 
   return (
     <div>
-      {feedback.state && (
-        <Feedback state={feedback.state} message={feedback.message} />
-      )}
-      {feedback.state != "success" && (
-        <form
-          id="form"
-          className="py-16 sectionForm md:px-24 lg:px-8 lg:py-20 font-anonymous"
-          onSubmit={handleSubmit(onSubmit)}
-        >
-          <div data-aos="zoom-in-down" className="containerForm">
-            <h2 className="text-3xl font-bold sm:text-5 xl">Contact us</h2>
-            <div className="row100">
-              <div className="col">
-                <div className="inputBox">
-                  <input
-                    {...register("email", { required: true })}
-                    type="text"
-                    name="email"
-                    id="email"
-                  />
-                  {errors.email && <ErrorComponent />}
-                  <span className="text">Email Address</span>
-                  <span className="line"></span>
-                </div>
-              </div>
-              <div className="col">
-                <div className="inputBox">
-                  <input
-                    {...register("telegram", { required: true })}
-                    type="text"
-                    name="telegram"
-                    id="telegram"
-                  />
-                  {errors.telegram && <ErrorComponent />}
-                  <span className="text">Telegram</span>
-                  <span className="line"></span>
-                </div>
-              </div>
-            </div>
-
-            <div className="row100">
-              <div className="col">
-                <div className="inputBox">
-                  <input
-                    {...register("github", { required: false })}
-                    type="text"
-                    name="github"
-                    id="github"
-                  />
-                  {errors.github && <ErrorComponent />}
-                  <span className="text">Source code/github (optional)</span>
-                  <span className="line"></span>
-                </div>
-              </div>
-              <div className="col">
-                <div className="inputBox">
-                  <input
-                    {...register("website", { required: false })}
-                    type="text"
-                    name="website"
-                    id="website"
-                  />
-                  {errors.website && <ErrorComponent />}
-                  <span className="text">Website (optional)</span>
-                  <span className="line"></span>
-                </div>
-              </div>
-            </div>
-
-            <div className="row100">
-              <div className="col">
-                <div className="inputBox">
-                  <input
-                    {...register("company", { required: false })}
-                    type="text"
-                    name="company"
-                    id="company"
-                  />
-                  {errors.company && <ErrorComponent />}
-                  <span className="text">Company (optional)</span>
-                  <span className="line"></span>
-                </div>
-              </div>
-            </div>
-
-            <div className="row100">
-              <div className="col">
-                <div className="inputBox textarea">
-                  <input
-                    {...register("description", { required: false })}
-                    type="text"
-                    name="description"
-                    id="description"
-                  />
-                  {errors.description && <ErrorComponent />}
-                  <span className="text">
-                    Project short description (optional)
-                  </span>
-                  <span className="line"></span>
-                </div>
-              </div>
-            </div>
-
-            <div className="row100">
-              <div className="flex flex-col items-start justify-center col sm:flex-row sm:justify-start sm:items-center">
+      <ToastContainer />
+      <form
+        id="form"
+        className="py-16 sectionForm md:px-24 lg:px-8 lg:py-20 font-anonymous"
+        onSubmit={handleSubmit(onSubmit)}
+      >
+        <div data-aos="zoom-in-down" className="containerForm">
+          <h2 className="text-3xl font-bold sm:text-5 xl">Contact us</h2>
+          <div className="row100">
+            <div className="col">
+              <div className="inputBox">
                 <input
-                  type="submit"
-                  value="Submit"
-                  className="px-5 py-2 text-white border border-white rounded cursor-pointer"
+                  {...register("email", { required: true })}
+                  type="text"
+                  name="email"
+                  id="email"
                 />
-                <span className="mt-4 ml-0 text-white sm:ml-4 sm:mt-0">
-                  In a hurry?
-                  <NavLink
-                    className="ml-2 hover:text-primary"
-                    href="https://t.me/hackachain"
-                    target="blank"
-                  >
-                    Contact us on telegram for a faster reply
-                  </NavLink>
-                </span>
+                {errors.email && <ErrorComponent />}
+                <span className="text">Email Address</span>
+                <span className="line"></span>
+              </div>
+            </div>
+            <div className="col">
+              <div className="inputBox">
+                <input
+                  {...register("telegram", { required: false })}
+                  type="text"
+                  name="telegram"
+                  id="telegram"
+                />
+                {errors.telegram && <ErrorComponent />}
+                <span className="text">Telegram</span>
+                <span className="line"></span>
               </div>
             </div>
           </div>
-        </form>
-      )}
+
+          <div className="row100">
+            <div className="col">
+              <div className="inputBox">
+                <input
+                  {...register("github", { required: false })}
+                  type="text"
+                  name="github"
+                  id="github"
+                />
+                {errors.github && <ErrorComponent />}
+                <span className="text">Source code/github (optional)</span>
+                <span className="line"></span>
+              </div>
+            </div>
+            <div className="col">
+              <div className="inputBox">
+                <input
+                  {...register("website", { required: false })}
+                  type="text"
+                  name="website"
+                  id="website"
+                />
+                {errors.website && <ErrorComponent />}
+                <span className="text">Website (optional)</span>
+                <span className="line"></span>
+              </div>
+            </div>
+          </div>
+
+          <div className="row100">
+            <div className="col">
+              <div className="inputBox">
+                <input
+                  {...register("company", { required: false })}
+                  type="text"
+                  name="company"
+                  id="company"
+                />
+                {errors.company && <ErrorComponent />}
+                <span className="text">Company (optional)</span>
+                <span className="line"></span>
+              </div>
+            </div>
+          </div>
+
+          <div className="row100">
+            <div className="col">
+              <div className="inputBox textarea">
+                <input
+                  {...register("description", { required: false })}
+                  type="text"
+                  name="description"
+                  id="description"
+                />
+                {errors.description && <ErrorComponent />}
+                <span className="text">
+                  Project short description (optional)
+                </span>
+                <span className="line"></span>
+              </div>
+            </div>
+          </div>
+
+          <div className="row100">
+            <div className="flex flex-col items-start justify-center col sm:flex-row sm:justify-start sm:items-center">
+              <input
+                type="submit"
+                value="Submit"
+                className="px-5 py-2 text-white border border-white rounded cursor-pointer"
+              />
+              <span className="mt-4 ml-0 text-white sm:ml-4 sm:mt-0">
+                In a hurry?
+                <NavLink
+                  className="ml-2 hover:text-primary"
+                  href="https://t.me/hackachain"
+                  target="blank"
+                >
+                  Contact us on telegram for a faster reply
+                </NavLink>
+              </span>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
   );
 }

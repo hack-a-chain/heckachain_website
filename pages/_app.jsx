@@ -9,6 +9,7 @@ import "../styles/journey.css";
 
 import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
+import 'react-toastify/dist/ReactToastify.css';
 
 import Header from "../src/components/Header";
 import AOS from "aos";

@@ -2,16 +2,17 @@ export default function HeroAnimate() {
   return (
     <div className="container">
       <svg
-        version="1.1"
+        // version="1.1"
         id="Layer_1"
         xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
-        x="0px"
-        y="0px"
-        // height="60vh"
+        // xmlnsXlink="http://www.w3.org/1999/xlink"
+        // x="0px"
+        // y="0px"
+        height="100%"
+        width="100%"
         viewBox="0 0 2000 1200"
-        enableBackground="new 0 0 2000 1200"
-        xmlSpace="preserve"
+        // enableBackground="new 0 0 2000 1200"
+        // xmlSpace="preserve"
       >
         <g>
           <line

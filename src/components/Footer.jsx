@@ -14,11 +14,11 @@ export default function Footer() {
       },
       {
         name: "Terms of service",
-        href: "https://hackachain.org/terms_service.html",
+        href: "/terms",
       },
       {
         name: "Privacy policy",
-        href: "https://hackachain.org/privacy_policy.html",
+        href: "/privacy",
       },
     ],
     company: [

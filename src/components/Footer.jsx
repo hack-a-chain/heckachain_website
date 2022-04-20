@@ -9,10 +9,6 @@ export default function Footer() {
     ],
     links: [
       {
-        name: "Audit reports",
-        href: "https://github.com/hack-a-chain/security-audits",
-      },
-      {
         name: "Terms of service",
         href: "/terms",
       },
@@ -74,8 +70,7 @@ export default function Footer() {
               <img className="h-14" src="/main/2.png" alt="Company name" />
             </NavLink>
             <p className="text-white text-base max-w-md">
-              More than a software service. All our business and technology
-              knowledge working for you.
+              Building the future, one block at a time.
             </p>
             <p className="text-white text-base max-w-md">info@hackachain.org</p>
             <div className="flex space-x-6">

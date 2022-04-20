@@ -71,7 +71,7 @@ export default function Team() {
               />
               <div className="mt-4 sm:mx-4 sm:mt-0">
                 <h1 className="text-xl font-semibold capitalize md:text-2xl text-gray-300 group-hover:text-white">
-                  Pedro
+                  Pedro Destri
                 </h1>
                 <p className="mt-2  capitalize text-gray-300 group-hover:text-white">
                   Project Manager

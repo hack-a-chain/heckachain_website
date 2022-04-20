@@ -18,7 +18,6 @@ export default function Footer() {
       },
     ],
     company: [
-      { name: "Faq", href: "/#faq" },
       { name: "Team", href: "/#team" },
       { name: "Contact Us", href: "#form" },
     ],
@@ -72,7 +71,7 @@ export default function Footer() {
             <p className="text-white text-base max-w-md">
               Building the future, one block at a time.
             </p>
-            <p className="text-white text-base max-w-md">info@hackachain.org</p>
+            <p className="text-white text-base max-w-md">info@hackachain.io</p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
                 <NavLink
@@ -156,7 +155,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 border-t border-gray-200 pt-8">
           <p className="text-base text-white xl:text-center">
-            &copy; 2020 Hack a Chain. All rights reserved.
+            &copy; 2022 Hack a Chain. All rights reserved.
           </p>
         </div>
       </div>

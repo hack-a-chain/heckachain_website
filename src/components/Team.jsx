@@ -79,8 +79,9 @@ export default function Team() {
               </div>
             </div>
             <p className="mt-4  text-base sm:text-lg text-gray-300 group-hover:text-white">
-              We are seeing the next generation of web borning in front of
-              ourselves and we can be part of it right now."
+              Technology and Financial Specialist. "We are seeing the next
+              generation of web borning in front of ourselves and we can be part
+              of it right now."
             </p>
           </div>
         </div>

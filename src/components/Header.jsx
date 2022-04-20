@@ -4,17 +4,17 @@ import NavLink from "./NavLink";
 
 export default function Header({ move }) {
   const navigation = [
-    { name: "Services", href: "#ourprocess", current: true },
-    { name: "Clients", href: "#customers", current: false },
-    { name: "Team", href: "#team", current: false },
-    { name: "About", href: "#about", current: false },
-    { name: "Contact", href: "#form", current: false },
+    { name: "Services", href: "/#ourprocess" },
+    { name: "Clients", href: "/#customers" },
+    { name: "Team", href: "/#team" },
+    { name: "About", href: "/#about" },
+    { name: "Contact", href: "/#form" },
   ];
 
   return (
     <Popover as="nav">
       {({ open }) => (
-        <div className="relative" style={{zIndex: '9999'}}>
+        <div className="relative" style={{ zIndex: "9999" }}>
           <div
             className={`fixed w-full left-0 right-0 mx-auto px-2 sm:px-6 lg:px-20 transition-colors ease-in-out delay-200 duration-500 z-50 ${
               move
@@ -69,9 +69,7 @@ export default function Header({ move }) {
             </div>
           </div>
 
-          <Popover.Panel
-            className="sm:hidden flex top-16 fixed z-50 w-full bg-grayHack shadow-lg border-b border-primary"
-          >
+          <Popover.Panel className="sm:hidden flex top-16 fixed z-50 w-full bg-grayHack shadow-lg border-b border-primary">
             <div className="px-2 pt-2 pb-3 space-y-2 w-full rounded ">
               {navigation.map((item) => (
                 <NavLink
@@ -79,7 +77,6 @@ export default function Header({ move }) {
                   as="a"
                   href={item.href}
                   className="text-gray-300 hover:bg-primary focus:bg-primary hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                  aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
                 </NavLink>

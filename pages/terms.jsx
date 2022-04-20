@@ -7,220 +7,78 @@ export default function TermsService() {
             Terms of service
           </h1>
         </div>
-        <p className="mt-2 leading-loose">Last updated: February 02, 2022</p>
+
+        <h2 className="mt-8 text-2xl font-bold">1. Terms</h2>
         <p className="mt-2 leading-loose">
-          This Cookies Policy explains what Cookies are and how We use them. You
-          should read this policy so You can understand what type of cookies We
-          use, or the information We collect using Cookies and how that
-          information is used. This Cookies Policy has been created with the
-          help of the{" "}
-          <a
-            href="https://www.privacypolicies.com/cookies-policy-generator/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Cookies Policy Generator
-          </a>
-          .
+          By accessing this Website, accessible from hackachain.org, you are
+          agreeing to be bound by these Website Terms and Conditions of Use and
+          agree that you are responsible for the agreement with any applicable
+          local laws. If you disagree with any of these terms, you are
+          prohibited from accessing this site. The materials contained in this
+          Website are protected by copyright and trade mark law.
         </p>
-        <p className="mt-2 leading-loose">
-          Cookies do not typically contain any information that personally
-          identifies a user, but personal information that we store about You
-          may be linked to the information stored in and obtained from Cookies.
-          For further information on how We use, store and keep your personal
-          data secure, see our Privacy Policy.
-        </p>
-        <p className="mt-2 leading-loose">
-          We do not store sensitive personal information, such as mailing
-          addresses, account passwords, etc. in the Cookies We use.
-        </p>
-        <h1>Interpretation and Definitions</h1>
-        <h2 className="mt-8 text-2xl font-bold">Interpretation</h2>
-        <p className="mt-2 leading-loose">
-          The words of which the initial letter is capitalized have meanings
-          defined under the following conditions. The following definitions
-          shall have the same meaning regardless of whether they appear in
-          singular or in plural.
-        </p>
-        <h2 className="mt-8 text-2xl font-bold">Definitions</h2>
-        <p className="mt-2 leading-loose">
-          For the purposes of this Cookies Policy:
-        </p>
-        <ul className="list-disc ">
-          <li className="mb-3 ml-2">
-            <strong>Company</strong> (referred to as either "the Company", "We",
-            "Us" or "Our" in this Cookies Policy) refers to DevPlans LTDA,
-            Rodovia Aparicio Ramos Cordeiro, 180.
+
+        <h2 className="mt-8 text-2xl font-bold">2. Use License</h2>
+        <ul className="list-disc mt-2">
+          <p className="mb-3 leading-loose">
+            Permission is granted to register and use the web application for
+            the purpose of browsing and audit management. Under this license you
+            may not:
+          </p>
+          <li className="mb-3 ml-4">resell our services;</li>
+          <li className="mb-3 ml-4">
+            use the materials for any commercial purpose or for any public
+            display;
           </li>
-          <li className="mb-3 ml-2">
-            <strong>Cookies</strong> means small files that are placed on Your
-            computer, mobile device or any other device by a website, containing
-            details of your browsing history on that website among its many
-            uses.
+          <li className="mb-3 ml-4">
+            disclose personal information of auditors working on your project;
           </li>
-          <li className="mb-3 ml-2">
-            <strong>Website</strong> refers to DevPlans, accessible from{" "}
-            <a
-              href="https://www.devplans.com.br/"
-              rel="external nofollow noopener noreferrer"
-              target="_blank"
-            >
-              https://www.devplans.com.br/
-            </a>
-          </li>
-          <li className="mb-3 ml-2">
-            <strong>You</strong> means the individual accessing or using the
-            Website, or a company, or any legal entity on behalf of which such
-            individual is accessing or using the Website, as applicable.
+          <li className="mb-3 ml-4">
+            remove any copyright or other proprietary notations from the
+            reports;{" "}
           </li>
         </ul>
-        <h1>The use of the Cookies</h1>
-        <h2 className="mt-8 text-2xl font-bold">Type of Cookies We Use</h2>
         <p className="mt-2 leading-loose">
-          Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies
-          remain on your personal computer or mobile device when You go offline,
-          while Session Cookies are deleted as soon as You close your web
-          browser.
+          This will let Hackachain to terminate upon violations of any of these
+          restrictions. Upon termination, your viewing right will also be
+          terminated and you should destroy any downloaded materials in your
+          possession whether it is printed or electronic format.
         </p>
+
+        <h2 className="mt-8 text-2xl font-bold">3. Disclaimer</h2>
         <p className="mt-2 leading-loose">
-          We use both session and persistent Cookies for the purposes set out
-          below:
+          All the materials and services on Hackachain’s Website are provided
+          “as is”. Hackachain makes no warranties for web application
+          availability, may it be expressed or implied, therefore negates all
+          other warranties.
         </p>
-        <ul className="list-disc ">
-          <li className="mb-3 ml-2">
-            <p className="mt-2 leading-loose">
-              <strong>Necessary / Essential Cookies</strong>
-            </p>
-            <p className="mt-2 leading-loose">Type: Session Cookies</p>
-            <p className="mt-2 leading-loose">Administered by: Us</p>
-            <p className="mt-2 leading-loose">
-              Purpose: These Cookies are essential to provide You with services
-              available through the Website and to enable You to use some of its
-              features. They help to authenticate users and prevent fraudulent
-              use of user accounts. Without these Cookies, the services that You
-              have asked for cannot be provided, and We only use these Cookies
-              to provide You with those services.
-            </p>
-          </li>
-          <li className="mb-3 ml-2">
-            <p className="mt-2 leading-loose">
-              <strong>Functionality Cookies</strong>
-            </p>
-            <p className="mt-2 leading-loose">Type: Persistent Cookies</p>
-            <p className="mt-2 leading-loose">Administered by: Us</p>
-            <p className="mt-2 leading-loose">
-              Purpose: These Cookies allow us to remember choices You make when
-              You use the Website, such as remembering your login details or
-              language preference. The purpose of these Cookies is to provide
-              You with a more personal experience and to avoid You having to
-              re-enter your preferences every time You use the Website.
-            </p>
-          </li>
-        </ul>
+
+        <h2 className="mt-8 text-2xl font-bold">4. Revisions and Errata</h2>
+        <p className="mt-2 leading-loose">
+          The materials appearing on Hackachain’s Website may include technical,
+          typographical, or photographic errors. Hackachain will not promise
+          that any of the materials in this Website are accurate, complete, or
+          current. Hackachain may change the materials contained on its Website
+          at any time without notice. Hackachain does not make any commitment to
+          update the materials.
+        </p>
+
+        <h2 className="mt-8 text-2xl font-bold">5. Links</h2>
+        <p className="mt-2 leading-loose">
+          Hackachain has not reviewed all of the sites linked to its Website and
+          is not responsible for the contents of any such linked site. The
+          presence of any link does not imply endorsement by Hackachain of the
+          site. The use of any linked website is at the user's own risk.
+        </p>
+
         <h2 className="mt-8 text-2xl font-bold">
-          Your Choices Regarding Cookies
+          6. Site Terms of Use Modifications
         </h2>
         <p className="mt-2 leading-loose">
-          If You prefer to avoid the use of Cookies on the Website, first You
-          must disable the use of Cookies in your browser and then delete the
-          Cookies saved in your browser associated with this website. You may
-          use this option for preventing the use of Cookies at any time.
+          Hackachain may revise these Terms of Use for its Website at any time
+          without prior notice. By using this Website, you are agreeing to be
+          bound by the current version of these Terms and Conditions of Use.
         </p>
-        <p className="mt-2 leading-loose">
-          If You do not accept Our Cookies, You may experience some
-          inconvenience in your use of the Website and some features may not
-          function properly.
-        </p>
-        <p className="mt-2 leading-loose">
-          If You'd like to delete Cookies or instruct your web browser to delete
-          or refuse Cookies, please visit the help pages of your web browser.
-        </p>
-        <ul className="list-disc ">
-          <li className="mb-3 ml-2">
-            <p className="mt-2 leading-loose">
-              For the Chrome web browser, please visit this page from Google:{" "}
-              <a
-                href="https://support.google.com/accounts/answer/32050"
-                rel="external nofollow noopener noreferrer"
-                target="_blank"
-              >
-                https://support.google.com/accounts/answer/32050
-              </a>
-            </p>
-          </li>
-          <li className="mb-3 ml-2">
-            <p className="mt-2 leading-loose">
-              For the Internet Explorer web browser, please visit this page from
-              Microsoft:{" "}
-              <a
-                href="http://support.microsoft.com/kb/278835"
-                rel="external nofollow noopener noreferrer"
-                target="_blank"
-              >
-                http://support.microsoft.com/kb/278835
-              </a>
-            </p>
-          </li>
-          <li className="mb-3 ml-2">
-            <p className="mt-2 leading-loose">
-              For the Firefox web browser, please visit this page from Mozilla:{" "}
-              <a
-                href="https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored"
-                rel="external nofollow noopener noreferrer"
-                target="_blank"
-              >
-                https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored
-              </a>
-            </p>
-          </li>
-          <li className="mb-3 ml-2">
-            <p className="mt-2 leading-loose">
-              For the Safari web browser, please visit this page from Apple:{" "}
-              <a
-                href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac"
-                rel="external nofollow noopener noreferrer"
-                target="_blank"
-              >
-                https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac
-              </a>
-            </p>
-          </li>
-        </ul>
-        <p className="mt-2 leading-loose">
-          For any other web browser, please visit your web browser's official
-          web pages.
-        </p>
-        <h2 className="mt-8 text-2xl font-bold">
-          More Information about Cookies
-        </h2>
-        <p className="mt-2 leading-loose">
-          You can learn more about cookies:{" "}
-          <a
-            href="https://www.privacypolicies.com/blog/cookies/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            What Are Cookies?
-          </a>
-          .
-        </p>
-        <h2 className="mt-8 text-2xl font-bold">Contact Us</h2>
-        <p className="mt-2 leading-loose">
-          If you have any questions about this Cookies Policy, You can contact
-          us:
-        </p>
-        <ul className="list-disc ">
-          <li className="mb-3 ml-2">
-            By visiting this page on our website:{" "}
-            <a
-              href="https://www.devplans.com.br/"
-              rel="external nofollow noopener noreferrer"
-              target="_blank"
-            >
-              https://www.devplans.com.br/
-            </a>
-          </li>
-        </ul>
       </div>
     </div>
   );
